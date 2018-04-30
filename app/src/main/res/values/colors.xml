@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="bright_blue">#0891b3</color>
+    <color name="bgcolor">#f2f2f2</color>
+    <color name="blue">#9BC3DB</color>
+    <color name="blue_dark">#017CBB</color>
+    <color name="brown3">#808080</color>
+    <color name="brown4">#a8a8a8</color>
+    <color name="skyblue">#94d4ea</color>
+
+    <color name="colorPrimary">#CED5DB</color>
+    <color name="colorPrimaryDark">#a1a5a9</color>
+    <color name="hintcolor">#A5A5A5</color>
+    <color name="colorAccent">#9BC3DB</color>
+    <color name="black_medium">#393939</color>
+    <color name="light_weight">#ddbcbc</color>
+    <color name="black_light2">#373737</color>
+    <color name="black_light">#6d6d6d</color>
+    <color name="gray">#777777</color>
+    <color name="sky_blue1">#0095e2</color>
+    <color name="dark_red">#e52729</color>
+    <color name="dark_red2">#e42526</color>
+    <color name="dark_red3">#e83326</color>
+    <color name="green_dark">#009a00</color>
+    <color name="light_drak">#29a9d4</color>
+    <color name="drak">#0099cc</color>
+    <color name="last">#2baad5</color>
+    <color name="balck_dark">#222222</color>
+    <color name="gray2">#76807D</color>
+    <color name="green2">#047CBD</color>
+    <color name="gray_drak">#7c7c7c</color>
+    <color name="black_drak">#292a2d</color>
+
+
+    <color name="my_order_background">#dbdbdc</color>
+
+    <color name="order_detail_red">#ff0001</color>
+    <color name="otp_text_color">#414141</color>
+    <color name="small_otp_color">#6a6a6a</color>
+    <color name="gray_meduim">#636363</color>
+    <color name="small_registration_text">#131313</color>
+    <color name="successfully_login">#595959</color>
+    <color name="invalid_moblie">#666666</color>
+
+    <color name="past_order_text_color">#686868</color>
+    <color name="past_order_line_bg">#b7b8b2</color>
+    <color name="paid_via_text">#1da40f</color>
+    <color name="mobile_no">#da2a20</color>
+
+    <color name="red">#ff0001</color>
+    <color name="divider">#A6A6A6</color>
+    <color name="light_gray">#DFDFDF</color>
+    <color name="drak_gray">#668695</color>
+
+    <color name="sky_blue">#00725b</color>
+    <color name="statusbarred">#E32624</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="textbg">#EA393A</color>
+    <color name="water_text_color">#265166</color>
+    <color name="hydra_balck">#515151</color>
+    <color name="setting_text_color">#2d2d2d</color>
+
+    <color name="white">#ffffff</color>
+    <color name="brown2">#AAAAAA</color>
+    <color name="gray1">#aeaeae</color>
+    <color name="light_hint">#e3e3e3</color>
+    <color name="light_text">#e5e5e5</color>
+    <color name="dark_text">#5e5e5e</color>
+    <color name="light_gen_text">#979797</color>
+
+
+</resources>

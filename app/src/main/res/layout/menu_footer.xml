@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_10">
+
+    <TextView
+        android:id="@+id/tvDelieryHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_footer"
+        android:textSize="@dimen/text_size_very_small_14"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/tvDeliveryDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_footer"
+        android:layout_marginTop="@dimen/margin_5"
+        android:textSize="@dimen/text_size_medium_18"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

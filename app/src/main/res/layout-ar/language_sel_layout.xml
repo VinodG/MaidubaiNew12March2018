@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/langsel_bg"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tvSelectLang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/select_language"
+        android:textColor="@color/balck_dark"
+        android:layout_margin="@dimen/margin_12"
+        android:textSize="@dimen/text_size_small_17" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@drawable/langbg"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/langbtn"
+            android:text="@string/english1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_small_17" />
+
+        <Button
+            android:id="@+id/btnArabic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="@string/arabic1"
+            android:textColor="@color/gray2"
+            android:textSize="@dimen/text_size_small_17" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_15"
+        android:background="@drawable/langarrow" />
+
+</LinearLayout>

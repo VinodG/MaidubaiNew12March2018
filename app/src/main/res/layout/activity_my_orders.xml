@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgcolor"
+    tools:context="com.winit.maidubai.MyOrdersActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_history"
+        android:textSize="16sp"
+        android:paddingBottom="@dimen/margin_8"
+        android:paddingTop="@dimen/margin_8"
+        android:paddingLeft="@dimen/margin_10"
+        android:textColor="@color/past_order_text_color"/>
+    <LinearLayout
+        android:id="@+id/llNoOrders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/margin_25"
+            android:text="@string/no_orders_available"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvPastOrder"
+        android:divider="@color/transparent"
+        android:dividerHeight="@dimen/margin_10"
+        android:visibility="gone"
+        android:paddingRight="@dimen/margin_10"
+        android:paddingLeft="@dimen/margin_10"/>
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "445130993987",
+    "firebase_url": "https://maidubai-76d70.firebaseio.com",
+    "project_id": "maidubai-76d70",
+    "storage_bucket": "maidubai-76d70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445130993987:android:51258771fa230b68",
+        "android_client_info": {
+          "package_name": "com.winit.maidubai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445130993987-c8n4fehjjuom3oqo7go9uo82honp7o13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.winit.maidubai",
+            "certificate_hash": "99311B1E9018AD602F452AA1B8F903C9195E80BA"
+          }
+        },
+        {
+          "client_id": "445130993987-guivenssaqs26fujbp5ukn99v06316kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANqb66TUdsLQaVC8HAYRNtD5tYxSNUcjw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445130993987-guivenssaqs26fujbp5ukn99v06316kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

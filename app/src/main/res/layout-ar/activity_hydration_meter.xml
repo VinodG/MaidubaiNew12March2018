@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hydration_meter_bg"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    tools:context="com.winit.maidubai.HydrationMeterActivity">
+
+    <LinearLayout
+        android:id="@+id/llDrinkMeter"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/ivCup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cup"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvTarget"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="@dimen/text_size_large_23"
+            android:textColor="@color/black_medium"
+            android:layout_height="wrap_content"
+            android:text="@string/you_drink"/>
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/add_one_glass_of_water"
+            android:textColor="@color/black_medium"
+            android:textSize="@dimen/text_size_large_23"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvAddDrinkPercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0%"
+            android:textColor="@color/black_medium"
+            android:textSize="82sp" />
+
+        <TextView
+            android:id="@+id/tvAddedDrink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:gravity="center"
+            android:text="@string/quantity_relate"
+            android:textColor="@color/black_medium"
+            android:textSize="@dimen/text_size_medium_18" />
+
+        <LinearLayout
+            android:id="@+id/llSocial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/tell_your_friends"
+                android:textSize="@dimen/text_size_large_23" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/share_with_fb" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/margin_20"
+                    android:paddingStart="@dimen/margin_20"
+                    android:src="@drawable/share_with_twitter" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/margin_20"
+                    android:paddingStart="@dimen/margin_20"
+                    android:src="@drawable/share_with_instagram" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnAddDrink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_25"
+            android:background="@drawable/add_drinking"
+            android:text="@string/add_drink"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_15"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginRight="@dimen/margin_15"
+            android:layout_marginStart="@dimen/margin_15"
+            android:layout_marginTop="@dimen/margin_25"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/bell"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivSummary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_50"
+                android:layout_marginRight="@dimen/margin_50"
+                android:src="@drawable/drink_summary" />
+
+            <ImageView
+                android:id="@+id/ivSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDisclaimer"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="@dimen/text_size_medium_18"
+        android:textColor="@color/dark_red2"
+        android:text="@string/You_have_accepted"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_register"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/margin_10"
+            android:text="Enter your Basics Details "
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal_19" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bgtextfields"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_10">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/nameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_8"
+                android:paddingLeft="@dimen/margin_5"
+                android:paddingRight="@dimen/margin_5"
+                android:paddingTop="@dimen/margin_8">
+
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/name_signup"
+                    android:drawablePadding="@dimen/margin_10"
+                    android:ems="10"
+                    android:hint="Name"
+                    android:inputType="textCapSentences"
+                    android:singleLine="true"
+                    android:textSize="@dimen/text_size_small" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seprator" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/emaiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_8"
+                android:paddingLeft="@dimen/margin_5"
+                android:paddingRight="@dimen/margin_5"
+                android:paddingTop="@dimen/margin_8">
+
+                <EditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/email_signup"
+                    android:drawablePadding="@dimen/margin_10"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:hint="Email address"
+                    android:singleLine="true"
+                    android:textSize="@dimen/text_size_small" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seprator" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/passLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="@dimen/margin_8"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:paddingRight="@dimen/margin_5"
+                    android:paddingTop="@dimen/margin_8">
+
+                    <EditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/pass_signup"
+                        android:drawablePadding="@dimen/margin_10"
+                        android:ems="10"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textSize="@dimen/text_size_small" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    android:id="@+id/ivPreviewPass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:paddingTop="@dimen/margin_10"
+                    android:src="@drawable/preview"
+                    android:layout_marginRight="@dimen/margin_10"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seprator" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/confirmpasslayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="@dimen/margin_8"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:paddingRight="@dimen/margin_5"
+                    android:paddingTop="@dimen/margin_8">
+
+                    <EditText
+                        android:id="@+id/etConfirmPass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/pass_signup"
+                        android:drawablePadding="@dimen/margin_10"
+                        android:ems="10"
+                        android:hint="Confirm password"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textSize="@dimen/text_size_small" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    android:id="@+id/ivPreviewPassConfirm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:paddingTop="@dimen/margin_10"
+                    android:src="@drawable/preview" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bithday_bg"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingBottom="@dimen/margin_3"
+            android:paddingRight="@dimen/margin_10">
+
+            <LinearLayout
+                android:id="@+id/llBirthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="@dimen/margin_8"
+                android:paddingBottom="@dimen/margin_10"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/bdayLayout"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:paddingRight="@dimen/margin_5">
+
+                    <EditText
+                        android:id="@+id/etBday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/bday_icon"
+                        android:drawablePadding="@dimen/margin_10"
+                        android:focusable="false"
+                        android:hint="@string/birthday"
+                        android:inputType="date"
+                        android:singleLine="true"
+                        android:textSize="@dimen/text_size_small" />
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/down_selector"
+                    android:paddingTop="@dimen/margin_8"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="@dimen/margin_10"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/seprator"
+                android:visibility="gone"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/anniversary"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/margin_8"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:paddingRight="@dimen/margin_5"
+                    android:paddingTop="@dimen/margin_8">
+
+                    <EditText
+                        android:id="@+id/etAnniversary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/calender_icon"
+                        android:drawablePadding="@dimen/margin_5"
+                        android:focusable="false"
+                        android:hint="@string/anniversary"
+                        android:inputType="date"
+                        android:singleLine="true"
+                        android:textSize="@dimen/text_size_small" />
+
+                </android.support.design.widget.TextInputLayout>
+                <ImageView
+                    android:id="@+id/ivCalAnivers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:src="@drawable/cal" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_15"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_marginRight="@dimen/margin_5"
+                android:text="Or Sign up with"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_very_small" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/line"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivLoginWithFb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_15"
+                android:src="@drawable/loginfb" />
+
+            <ImageView
+                android:id="@+id/ivLoginWithTwitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_15"
+                android:src="@drawable/logintwitter"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivLoginWithGooglePlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_15"
+                android:src="@drawable/logingp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_15"
+            android:background="@drawable/button"
+            android:text="@string/next"
+            android:paddingBottom="@dimen/margin_3"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+</ScrollView>

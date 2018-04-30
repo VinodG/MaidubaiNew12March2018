@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@color/past_order_line_bg"
+        android:src="@drawable/line_image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llSubTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Subtotal" />
+
+            <TextView
+                android:id="@+id/tvProductAmtTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="AED 36" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bill Amount" />
+
+            <TextView
+                android:id="@+id/tvBillingAmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="AED 36" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llDeliveryCharges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Delivery Charges" />
+
+            <TextView
+                android:id="@+id/tvDeliveryCharges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="AED 0" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/total_vat" />
+
+            <TextView
+                android:id="@+id/tvTotalVATAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="AED 0" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@color/past_order_line_bg"
+        android:src="@drawable/line_image" />
+
+    <LinearLayout
+        android:id="@+id/llTotalPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Total Payable Amount"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTotalAmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AED 36"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@color/past_order_line_bg"
+        android:src="@drawable/line_image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPamentType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:text="Payment via : Mai Dubai Wallet"
+            android:textColor="@color/paid_via_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:text="Delivery Schedule"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llOrderDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/margin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Order will be delivered on : " />
+
+        <TextView
+            android:id="@+id/tvDeliveryDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="July 15,2016"
+            android:textColor="@color/order_detail_red"
+            android:textSize="15sp"/>
+    </LinearLayout>
+</LinearLayout>

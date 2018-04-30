@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:background="@drawable/bg_social_network"
+    tools:context="com.winit.maidubai.SocialNetworkActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_25">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/ivTwitter"
+            android:layout_height="wrap_content"
+            android:src="@drawable/twitter"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/youtube"
+            android:id="@+id/ivYouTube"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginStart="@dimen/margin_15"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="-22dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/facebook"
+            android:id="@+id/ivFacebook"
+            android:layout_marginRight="@dimen/margin_70"
+            android:layout_marginEnd="@dimen/margin_70"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivInstagram"
+            android:src="@drawable/instagram"
+            android:layout_marginLeft="@dimen/margin_100"
+            android:layout_marginStart="@dimen/margin_100"
+             />
+
+    </LinearLayout>
+
+</LinearLayout>

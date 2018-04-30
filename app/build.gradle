@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+
+    defaultConfig {
+        applicationId "com.winit.maidubai"
+        minSdkVersion 16
+        targetSdkVersion 20
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+        incremental = true;
+        preDexLibraries = false
+        javaMaxHeapSize "4g" // 2g should be also OK
+    }
+
+    aaptOptions {
+        additionalParameters "--no-version-vectors"
+    }
+}
+
+repositories {
+    maven {
+        url 'https://zendesk.artifactoryonline.com/zendesk/repo'
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:26.0.0'
+    compile 'com.github.JakeWharton:ViewPagerIndicator:2.4.1'
+    compile 'com.android.support:design:26.0.0'
+    compile 'com.google.android.gms:play-services:9.6.0'
+    compile 'com.google.firebase:firebase-core:9.0.2'
+    compile 'com.google.firebase:firebase-messaging:9.0.2'
+//    compile 'com.google.android.gms:play-services:8.1.0'
+    compile 'com.felipecsl.asymmetricgridview:library:2.0.1'
+    compile 'com.android.support:support-v4:26.0.0'
+    compile 'com.zopim.android:sdk:1.2.3.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.google.android.gms:play-services-ads:9.6.0'
+    compile 'com.google.android.gms:play-services-identity:9.6.0'
+    compile 'com.google.android.gms:play-services-gcm:9.6.0'
+}
+
+apply plugin: 'com.google.gms.google-services'

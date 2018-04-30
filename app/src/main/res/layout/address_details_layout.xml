@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_register"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_15"
+            android:text="@string/enter_address_detail"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal_19" />
+
+        <include layout="@layout/address"/>
+
+
+        <LinearLayout
+            android:id="@+id/llDeliveryDays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/delivery_days"
+            android:layout_margin="@dimen/margin_15"
+            android:visibility="invisible">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/margin_5"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tvDeliveryDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_develiery"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_very_small"/>
+
+                <TextView
+                    android:id="@+id/tvDeliveryDays"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_medium_18"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:text="Wed"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/delivery_boy"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="@dimen/margin_15"
+            android:background="@drawable/button"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium"
+            android:paddingBottom="@dimen/margin_3"/>
+
+    </LinearLayout>
+</ScrollView>

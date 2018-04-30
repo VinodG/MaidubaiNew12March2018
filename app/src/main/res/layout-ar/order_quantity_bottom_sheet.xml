@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvSelectQty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_small"
+            android:text="@string/select_quantity"
+            android:textColor="@color/black_medium"/>
+
+        <TextView
+            android:id="@+id/tvDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/done"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/dark_red2"
+            />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroupQty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margin_10"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rad1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toggle_bg"
+            android:button="@android:color/transparent"
+            android:textSize="@dimen/text_size_small_17"
+            android:checked="false"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@drawable/toggale_text" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toggle_bg"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_small_17"
+            android:text="2"
+            android:textColor="@drawable/toggale_text" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rad3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toggle_bg"
+            android:button="@android:color/transparent"
+            android:textSize="@dimen/text_size_small_17"
+            android:checked="false"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@drawable/toggale_text" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rad4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toggle_bg"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_small_17"
+            android:text="4"
+            android:textColor="@drawable/toggale_text" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rad5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toggle_bg"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_small_17"
+            android:text="5"
+            android:textColor="@drawable/toggale_text" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/rad6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toggle_bg"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:gravity="center"
+            android:text="6"
+            android:textSize="@dimen/text_size_small_17"
+            android:textColor="@drawable/toggale_text" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rad7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toggle_bg"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:textSize="@dimen/text_size_small_17"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@drawable/toggale_text" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_very_small_14"
+                android:text="@string/or_enter_quantity"
+                android:textColor="@color/black_medium"/>
+            <TextView
+                android:id="@+id/tvtemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:textSize="@dimen/text_size_normal" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etBtlCount"
+                android:paddingStart="@dimen/margin_10"
+                android:paddingLeft="@dimen/margin_10"
+                android:background="@null"
+                android:textSize="@dimen/text_size_large"
+                android:inputType="number"
+                android:maxLength="3"
+                android:hint="0" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sep1"/>
+
+            <TextView
+                android:id="@+id/tvMinQty"
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_small_16"
+                android:text="@string/min_order_qty"
+                android:textColor="@color/red"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/margin_10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total"
+                android:gravity="right"
+                android:layout_gravity="end"
+                android:textSize="@dimen/text_size_very_small_14"
+                android:textColor="@color/black_medium"/>
+            <LinearLayout
+                android:id="@+id/llTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="bottom">
+                <TextView
+                    android:id="@+id/tvTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="36"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/text_size_large_26"
+                    android:gravity="end"
+                    android:singleLine="true"
+                    android:layout_marginEnd="@dimen/margin_5"
+                    android:layout_marginRight="@dimen/margin_5"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/tvAED"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/currency"
+                    android:layout_gravity="end"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/text_size_large_26" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/margin_5"
+                android:gravity="end"
+                >
+
+                <TextView
+                    android:id="@+id/tvQty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textSize="@dimen/text_size_very_small_14"
+                    android:textColor="@color/black_medium"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" X "
+                    android:textSize="@dimen/text_size_very_small_14"
+                    android:textColor="@color/black_medium"/>
+
+                <TextView
+                    android:id="@+id/tvPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12"
+                    android:textSize="@dimen/text_size_very_small_14"
+                    android:textColor="@color/black_medium"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

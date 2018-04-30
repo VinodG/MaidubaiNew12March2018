@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:background="@drawable/listbg">
+
+    <ImageView
+        android:id="@+id/lvBtlIv"
+        android:layout_width="@dimen/img_width_list"
+        android:layout_height="@dimen/img_height_list"
+        android:layout_margin="@dimen/margin_10" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/verticalsep" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/llItemDetails"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lvBtlSizeTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="@dimen/margin_10"
+                    android:text="5 Gallon"
+                    android:textColor="@color/black_medium"
+                    android:textSize="@dimen/text_size_medium_18" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+                    <TextView
+                        android:id="@+id/tvBtlSubSize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black_medium"
+                        android:textSize="@dimen/text_size_small_16"
+                        android:text=""
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/lvBtlRateTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="@dimen/margin_10"
+                    android:text="AED 12"
+                    android:textColor="@color/dark_red2"
+                    android:textSize="@dimen/text_size_very_small" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="right"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/btnAddCArt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="@dimen/margin_10"
+                    android:src="@drawable/van"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ivGoToCArtList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/cart_btn"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+

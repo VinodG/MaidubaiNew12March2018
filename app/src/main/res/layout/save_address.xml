@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <fragment
+        android:id="@+id/googleMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/contactcustomer"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_20"
+        android:textSize="@dimen/text_size_very_small"
+        android:textColor="@color/gray_drak"/>
+
+    <include layout="@layout/address"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+
+    <Button
+        android:id="@+id/btnSaveAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Address"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:paddingBottom="@dimen/margin_4"
+        android:background="@drawable/btn"
+        android:textSize="@dimen/text_size_medium"/>
+</LinearLayout>

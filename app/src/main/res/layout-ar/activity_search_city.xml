@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgcolor"
+    android:layoutDirection="rtl"
+    tools:context="com.winit.maidubai.SearchCityActivity">
+    <TextView
+        android:id="@+id/tvArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_city"
+        android:textColor="@color/past_order_text_color"
+        android:textSize="@dimen/text_size_very_small_12"
+        android:layout_margin="@dimen/margin_10"
+        android:visibility="gone"/>
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_bg"
+        android:drawableLeft="@drawable/search_icon"
+        android:textSize="@dimen/text_size_very_small_12"
+        android:paddingLeft="@dimen/margin_5"
+        android:drawablePadding="@dimen/margin_5"
+        android:hint=" Search Cities"
+        android:layout_margin="@dimen/margin_10" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:id="@+id/lvSelectCity">
+    </ListView>
+    <LinearLayout
+        android:id="@+id/llNoArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tvNoArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_images"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layoutDirection="rtl"
+    android:background="@drawable/invalid_mobile_bg">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/oops"/>
+
+    <TextView
+        android:id="@+id/tvIncorrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_medium_18"
+        android:textColor="@color/black_medium"
+        android:layout_marginTop="@dimen/margin_15"
+        android:text="@string/incorrect"/>
+
+    <TextView
+        android:id="@+id/tvPleaseEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_small_17"
+        android:textColor="@color/invalid_moblie"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_15"
+        android:text="@string/invliad"/>
+    <TextView
+        android:id="@+id/tvMoreInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_small_17"
+        android:textColor="@color/invalid_moblie"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_50"
+        android:text="@string/moreInfo"/>
+    <TextView
+        android:id="@+id/tvMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_extra_large_35"
+        android:textColor="@color/mobile_no"
+        android:layout_marginTop="@dimen/margin_15"
+        android:text="@string/mobile_no"/>
+</LinearLayout>

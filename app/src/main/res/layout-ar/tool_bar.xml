@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    android:layoutDirection="rtl"
+    android:background="@drawable/appbar">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ivMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/menu_white"
+            android:padding="@dimen/margin_10"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/llBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_5"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_arrow"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:id="@+id/llToggleLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/toggle_select"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/tvToggleLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_very_small_14"
+                    android:text="@string/water_range"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llToggleRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/toggle_unselect"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/tvToggleRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_very_small_14"
+                    android:text="@string/accessories"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMainCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_logo"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_medium"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginEnd="@dimen/margin_10"/>
+
+        <RelativeLayout
+            android:id="@+id/rlCArt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginEnd="@dimen/margin_10">
+
+            <ImageView
+                android:id="@+id/ivCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cart_order"
+                android:visibility="visible"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/margin_8"/>
+            <TextView
+                android:id="@+id/tvCArtCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/text_size_very_small_8"
+                android:textColor="@android:color/white"
+                android:visibility="visible"
+                android:background="@drawable/cir_red"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ivCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/margin_10"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:layout_toLeftOf="@+id/llMainCenter"
+            android:layout_alignParentLeft="true"
+            android:maxLines="2"
+            android:padding="@dimen/margin_10"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

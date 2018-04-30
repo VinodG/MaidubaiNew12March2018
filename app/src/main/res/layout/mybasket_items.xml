@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/margin_5"
+    android:paddingRight="@dimen/margin_5"
+    android:gravity="center"
+    android:background="@drawable/mybasketbg">
+
+    <ImageView
+        android:id="@+id/ivBottolIcons"
+        android:layout_width="@dimen/img_width_list"
+        android:layout_height="@dimen/img_height_list"
+        android:layout_margin="@dimen/margin_10"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:text="Mydubai pure drinking water"
+                android:textSize="@dimen/text_size_very_small"
+                android:textColor="@color/black_drak"
+                />
+            <ImageView
+                android:id="@+id/ivDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/delete"
+                android:padding="@dimen/margin_10"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:text="5 gallon"
+            android:textSize="@dimen/text_size_very_small"
+            android:textColor="@color/gray_drak"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_weight="1"
+                android:text="AED 12.00"
+                android:textSize="@dimen/text_size_very_small"
+                android:textColor="@color/red"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivMinus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/minus_icon"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=""
+                    android:singleLine="true"
+                    android:ems="3"/>
+
+                <ImageView
+                    android:id="@+id/ivPlus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/plus_icon"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

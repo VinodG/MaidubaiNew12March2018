@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_date"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="25"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvselecteddate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivCalBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#000000"
+        android:contentDescription="@null"
+        android:visibility="gone" />
+
+</LinearLayout>

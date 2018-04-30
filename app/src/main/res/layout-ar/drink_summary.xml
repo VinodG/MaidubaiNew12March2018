@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/hydration_meter_bg"
+    android:layoutDirection="rtl"
+    android:layout_height="match_parent">
+    <ListView
+        android:paddingRight="@dimen/margin_5"
+        android:paddingEnd="@dimen/margin_5"
+        android:paddingLeft="@dimen/margin_10"
+        android:paddingStart="@dimen/margin_10"
+        android:paddingTop="@dimen/margin_10"
+        android:id="@+id/lvDrinkSummary"
+        android:divider="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent">
+    </ListView>
+    <LinearLayout
+        android:id="@+id/llNoData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_data"/>
+    </LinearLayout>
+</LinearLayout>

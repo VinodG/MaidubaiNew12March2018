@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:layoutDirection="rtl"
+    android:orientation="vertical">
+    <!--android:background="@color/bgcolor"-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_8"
+        android:paddingTop="@dimen/margin_8"
+        android:paddingLeft="@dimen/margin_10"
+        android:paddingStart="@dimen/margin_10"
+        android:text="@string/saved_address"
+        android:textColor="@color/brown2"
+        android:textSize="@dimen/text_size_normal_19" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sep"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/llNoAddress"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@color/white"
+        android:layout_weight="1"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/margin_25"
+            android:text="@string/no_address_available"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:visibility="gone"
+        android:divider="@null"/>
+
+    <TextView
+        android:id="@+id/tvAddNewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/margin_10"
+        android:textSize="@dimen/text_size_medium_18"
+        android:textColor="@color/red"
+        android:text="@string/use_a_new_address"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn"
+            android:text="Continue"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:textSize="@dimen/text_size_medium" />
+        <Button
+            android:id="@+id/btnNewAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn"
+            android:text="@string/use_a_new_address"
+            android:textColor="@color/white"
+            android:visibility="visible"
+            android:paddingBottom="@dimen/margin_4"
+            android:textSize="@dimen/text_size_medium" />
+
+    </LinearLayout>
+
+</LinearLayout>

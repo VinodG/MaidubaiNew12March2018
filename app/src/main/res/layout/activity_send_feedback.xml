@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.winit.maidubai.SendFeedbackActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/llAppForword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_20"
+                        android:src="@drawable/feedback_app" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight=".9"
+                        android:text="@string/app_feedback"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_very_small_14" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_weight=".1">
+
+                        <ImageView
+                            android:id="@+id/ivAppForword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/go_forword" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llAppFeedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/margin_10"
+                    android:paddingBottom="@dimen/margin_10"
+                    android:paddingLeft="@dimen/margin_10"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black_medium"
+                        android:text="@string/rate_app_feedback_msz_"/>
+                    <RadioGroup
+                        android:id="@+id/rgRateAppFeedback"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/margin_20"
+                        android:paddingRight="@dimen/margin_10"
+                        android:gravity="center">
+                        <RadioButton
+                            android:id="@+id/rbTerribleAppFeedback"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableTop="@drawable/toggle_terrible"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/terrible"
+                            android:tag="Terrible"
+                            android:textColor="@drawable/toggale_text"
+                            android:textAllCaps="false"
+                            android:drawablePadding="@dimen/margin_5"
+                            android:textSize="@dimen/text_size_very_small_12"/>
+
+                        <RadioButton
+                            android:id="@+id/rbBadAppFeedback"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".08"
+                            android:drawableTop="@drawable/toggle_bad"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/bad"
+                            android:tag="Bad"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:textColor="@drawable/toggale_text"
+                            android:drawablePadding="@dimen/margin_5"
+                            android:textSize="@dimen/text_size_very_small_12"/>
+
+                        <RadioButton
+                            android:id="@+id/rbOkeyAppFeedback"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".08"
+                            android:drawableTop="@drawable/toggle_okey"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/okey"
+                            android:tag="Ok"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:textColor="@drawable/toggale_text"
+                            android:drawablePadding="@dimen/margin_5"
+                            android:textSize="@dimen/text_size_very_small_12"/>
+
+                        <RadioButton
+                            android:id="@+id/rbGreateAppFeedback"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".08"
+                            android:drawableTop="@drawable/toggle_greate"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/great"
+                            android:tag="Great"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:textColor="@drawable/toggale_text"
+                            android:drawablePadding="@dimen/margin_5"
+                            android:textSize="@dimen/text_size_very_small_12"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAwesomeAppFeedback"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".1"
+                            android:drawableTop="@drawable/toggle_awesome"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/awesome"
+                            android:tag="Awesome"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:textColor="@drawable/toggale_text"
+                            android:drawablePadding="@dimen/margin_5"
+                            android:textSize="@dimen/text_size_very_small_12"/>
+
+                    </RadioGroup>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_25"
+                        android:layout_marginBottom="@dimen/margin_10"
+                        android:text="@string/comments"
+                        android:textColor="@color/black_light2"
+                        android:textSize="@dimen/text_size_very_small"/>
+
+                    <EditText
+                        android:id="@+id/etCommentAppFeedback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/note_hint"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:background="@null"
+                        android:textSize="@dimen/text_size_very_small"
+                        android:drawableBottom="@drawable/feedback_sep"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_25"
+                        android:text="@string/enter_email"
+                        android:textColor="@color/black_light2"
+                        android:textSize="@dimen/text_size_very_small"
+                        android:layout_marginBottom="@dimen/margin_10"/>
+                    <EditText
+                        android:id="@+id/etEmailAppFeedback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:background="@null"
+                        android:hint="john@gmail.com"
+                        android:drawableBottom="@drawable/feedback_sep"
+                        android:textSize="@dimen/text_size_very_small"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20"
+                        android:visibility="gone"
+                        android:text="@string/add_photo"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/margin_10">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:layout_weight="1">
+                            <TextView
+                                android:id="@+id/tvAddPhotoAppFeedback"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/add_photo_bg"
+                                android:gravity="center"
+                                android:paddingLeft="@dimen/margin_10"
+                                android:text="@string/add_feedbak"
+                                android:drawableLeft="@drawable/camera_icon" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right">
+                            <TextView
+                                android:id="@+id/tvSubmitAppFeedback"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/feedback_btn"
+                                android:gravity="center"
+                                android:text="@string/submit_feedbak"
+                                android:layout_marginTop="@dimen/margin_20"
+                                android:textColor="@color/white"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/seprator"/>
+
+                <LinearLayout
+                    android:id="@+id/llDeliveryForword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_20"
+                        android:src="@drawable/delivery_feedback" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight=".9"
+                        android:text="@string/delivery_feedback"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_very_small_14" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_weight=".1">
+
+                        <ImageView
+                            android:id="@+id/ivDeliveryForword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/go_forword" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/llDelivery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/margin_10"
+                    android:paddingBottom="@dimen/margin_10"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black_medium"
+                        android:text="@string/rate_msz"/>
+                    <RadioGroup
+                        android:id="@+id/rgDelivery"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingRight="@dimen/margin_10"
+                        android:layout_marginTop="@dimen/margin_20"
+                        android:gravity="center">
+                        <RadioButton
+                            android:id="@+id/rbTerrible"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableTop="@drawable/toggle_terrible"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/terrible"
+                            android:tag="Terrible"
+                            android:textColor="@drawable/toggale_text"
+                            android:drawablePadding="@dimen/margin_5"
+                            android:textSize="@dimen/text_size_very_small_12"/>
+
+                        <RadioButton
+                            android:id="@+id/rbBad"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".08"
+                            android:drawableTop="@drawable/toggle_bad"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/bad"
+                            android:tag="Bad"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:textColor="@drawable/toggale_text"
+                            android:drawablePadding="@dimen/margin_5"
+                            android:textSize="@dimen/text_size_very_small_12"/>
+
+                        <RadioButton
+                            android:id="@+id/rbOkey"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".08"
+                            android:drawableTop="@drawable/toggle_okey"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/okey"
+                            android:tag="Ok"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:textColor="@drawable/toggale_text"
+                            android:drawablePadding="@dimen/margin_5"
+                            android:textSize="@dimen/text_size_very_small_12"/>
+
+                        <RadioButton
+                            android:id="@+id/rbGreate"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".08"
+                            android:drawableTop="@drawable/toggle_greate"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/great"
+                            android:tag="Great"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:textColor="@drawable/toggale_text"
+                            android:drawablePadding="@dimen/margin_5"
+                            android:textSize="@dimen/text_size_very_small_12"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAwesome"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".1"
+                            android:drawableTop="@drawable/toggle_awesome"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/awesome"
+                            android:tag="Awesome"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:textColor="@drawable/toggale_text"
+                            android:drawablePadding="@dimen/margin_5"
+                            android:textSize="@dimen/text_size_very_small_12"/>
+
+                    </RadioGroup>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_25"
+                        android:layout_marginBottom="@dimen/margin_10"
+                        android:text="@string/comments"
+                        android:textColor="@color/black_light2"
+                        android:textSize="@dimen/text_size_very_small"/>
+                    <EditText
+                        android:id="@+id/etComment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/note_hint"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:background="@null"
+                        android:textSize="@dimen/text_size_very_small"
+                        android:drawableBottom="@drawable/feedback_sep" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_25"
+                        android:text="@string/enter_email"
+                        android:textColor="@color/black_light2"
+                        android:textSize="@dimen/text_size_very_small"
+                        android:layout_marginBottom="@dimen/margin_10"/>
+
+                    <EditText
+                        android:id="@+id/etEmailDeliveryFeedback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:background="@null"
+                        android:hint="john@gmail.com"
+                        android:drawableBottom="@drawable/feedback_sep"
+                        android:textSize="@dimen/text_size_very_small" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20"
+                        android:visibility="gone"
+                        android:text="@string/add_photo"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/margin_10">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:layout_weight="1">
+                            <TextView
+                                android:id="@+id/tvAddPhoto"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/add_photo_bg"
+                                android:gravity="center"
+                                android:paddingLeft="@dimen/margin_10"
+                                android:text="@string/add_feedbak"
+                                android:drawableLeft="@drawable/camera_icon" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right">
+                            <TextView
+                                android:id="@+id/tvSubmitDeliveryFeedback"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/feedback_btn"
+                                android:gravity="center"
+                                android:text="@string/submit_feedbak"
+                                android:textColor="@color/white"
+                                android:layout_marginTop="@dimen/margin_20"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/seprator"/>
+                <LinearLayout
+                    android:id="@+id/llQuearyForword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/margin_5"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:paddingBottom="@dimen/margin_5"
+                    android:visibility="gone">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_10"
+                        android:src="@drawable/query_service" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_weight=".9"
+                        android:text="@string/query_service"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_very_small_14" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1">
+
+                        <ImageView
+                            android:id="@+id/ivQuearyForword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/go_forword" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llFeedbackForword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/margin_5"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:paddingBottom="@dimen/margin_5"
+                    android:visibility="gone">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_10"
+                        android:src="@drawable/feedback_msg" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_weight=".9"
+                        android:text="@string/feedback"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_very_small_14" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1">
+
+                        <ImageView
+                            android:id="@+id/ivFeedbackForword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/go_forword" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/llFeedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/margin_10"
+                    android:paddingBottom="@dimen/margin_10"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/rate_msz"/>
+                    <RadioGroup
+                        android:id="@+id/rgRateFeedback"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/margin_10"
+                        android:paddingRight="@dimen/margin_10"
+                        android:layout_marginTop="@dimen/margin_20"
+                        android:gravity="center">
+                        <RadioButton
+                            android:id="@+id/rbTerribleFeedback"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableTop="@drawable/toggle_terrible"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/terrible"
+                            android:tag="Terrible"
+                            android:textColor="@drawable/toggale_text"
+                            android:drawablePadding="@dimen/margin_5"/>
+
+                        <RadioButton
+                            android:id="@+id/rbBadFeedback"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".08"
+                            android:drawableTop="@drawable/toggle_bad"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/bad"
+                            android:tag="Bad"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:textColor="@drawable/toggale_text"
+                            android:drawablePadding="@dimen/margin_5"/>
+
+                        <RadioButton
+                            android:id="@+id/rbOkeyFeedback"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".08"
+                            android:drawableTop="@drawable/toggle_okey"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/okey"
+                            android:tag="Ok"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:textColor="@drawable/toggale_text"
+                            android:drawablePadding="@dimen/margin_5"/>
+
+                        <RadioButton
+                            android:id="@+id/rbGreateFeedback"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".08"
+                            android:drawableTop="@drawable/toggle_greate"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/great"
+                            android:tag="Great"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:textColor="@drawable/toggale_text"
+                            android:drawablePadding="@dimen/margin_5"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAwesomeFeedback"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".1"
+                            android:drawableTop="@drawable/toggle_awesome"
+                            android:gravity="center"
+                            android:button="@android:color/transparent"
+                            android:text="@string/awesome"
+                            android:tag="Awesome"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:textColor="@drawable/toggale_text"
+                            android:drawablePadding="@dimen/margin_5"/>
+
+                    </RadioGroup>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:text="@string/comments"/>
+                    <EditText
+                        android:id="@+id/etCommentFeedback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:background="@drawable/comments" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:text="@string/enter_email"/>
+                    <EditText
+                        android:id="@+id/etEmailFeedback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:background="@drawable/mail_feedback" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20"
+                        android:visibility="gone"
+                        android:text="@string/add_photo"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/margin_10">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:layout_weight="1">
+                            <TextView
+                                android:id="@+id/tvAddPhotoFeedback"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/add_photo_bg"
+                                android:gravity="center"
+                                android:paddingLeft="@dimen/margin_10"
+                                android:text="@string/add_feedbak"
+                                android:drawableLeft="@drawable/camera_icon" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right">
+                            <TextView
+                                android:id="@+id/tvSubmitFeedback"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/feedback_btn"
+                                android:gravity="center"
+                                android:text="@string/submit_feedbak"
+                                android:textColor="@color/white"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,590 @@
+<resources>
+
+    <string name="app_name"> ماي دبي</string>
+    <string name="password">كلمة السر</string>
+    <string name="warning">تحذير</string>
+
+    <string name="No_Network">يتطلب هذا التطبيق الاتصال بشبكة الانترنت. الرجاء التحقق من اتصال الإنترنت الخاص بك.</string>
+    <string name="check_network"> الرجاء التأكد من وصلة الانترنت</string>
+    <string name="No_GPS">الرجاء فتح نظام تحديد المواقع!</string>
+    <string name="logout">الخروج</string>
+    <string name="by_day">يوم</string>
+    <string name="Loading_Data">جار التحميل…</string>
+    <string name="by_month">شهر</string>
+    <string name="logout_msg">تأكيد: هل تريد تسجيل الخروج؟</string>
+    <string name="save">حفظ</string>
+    <string name="forgot_password">هل نسيت كلمة السر؟</string>
+    <string name="no_address_available"> لا يوجد عنوان مسجل</string>
+    <string name="no_media_available">لا وسائل الإعلام المتاحة</string>
+    <string name="get_started">إبدأ الآن - إبدأ  الإستخدام</string>
+    <string name="well_done">حسنا فعلت! \ اليوم كنت شربت</string>
+    <string name="add_one_glass_of_water"> مرحباً، الرجاء إضافة أول كوب من الماء تم شربه</string>
+    <string name="DO_You_want_to_cancel_recurring">هل أنت متأكد أنك تريد إلغاء متكرر؟</string>
+    <string name="performed_normal">اليوم كنت أداء ممتازة، تهانينا!</string>
+    <string name="add_drink">أضف الكمية</string>
+    <string name="Already_emailId">البريد الالكتروني/الهاتف مسجل مسبقاً لدينا</string>
+    <string name="LOGIN_FAILED">لم يتم تسجيل الدخول بنجاح. يرجى المحاولة من جديد</string>
+    <string name="SIGNUP_FAILED">لم يتم التسجيل بنجاح ! يرجى المحاولة مرة أخرى</string>
+    <string name="no_images">لا توجد صور</string>
+    <string name="notification">إشعار - تنبيه - منبه الماء</string>
+    <string name="no_orders_available">لم يتم تسجيل طلبات</string>
+    <string name="cancel_order">الغاء الطلب</string>
+    <string name="DO_You_want_to_Recurr_Order">هل تريد إضافة العناصر إلى التكراري.</string>
+    <string name="Unable_to_address">لم نستطع جلب العنوان . الرجاء إدخال  البيانات</string>
+    <string name="DO_You_want_to_cancel_Order">هل تريد إلغاء هذا الطلب ؟</string>
+    <string name="DO_You_want_to_clear_Order">هل أنت متأكد أنك تريد مسح العناصر؟</string>
+    <string name="DO_You_want_to_remove_item"> تأكيد : هل تود إزالة هذا المنتج تماماً؟</string>
+    <string name="Order_Successfully_saved">تم الحفظ بنجاح</string>
+    <string name="Order_Successfully_Placed">ترتيب وضعها بنجاح.</string>
+    <string name="recurring_order">أمر متكرر</string>
+    <string name="city_name">اسم المدينة</string>
+    <string name="confirm">تأكيد</string>
+    <string name="setLoaction">Select Location</string>
+    <string name="incorrect">خطأ في إدخال رقم  الهاتف المتحرك أو البريد الالكتروني</string>
+    <string name="invliad">الرجاء إدخال رقم  الهاتف المتحرك أو البريد الالكتروني المسجل</string>
+    <string name="moreInfo">لمزيد من المعلومات يرجى الاتصال مع خدمة العملاء</string>
+    <string name="mobile_no">+971 4 885 8905 </string>
+    <string name="Please_provide_us_your_valuable_feedback">الرجاء ابداء رأيكم بالتطبيق</string>
+    <string name="please_select_drink">يرجى اختيار مل من الماء إضافة إلى الزجاج.</string>
+    <string name="ordered_products">المنتجات المطلوبة</string>
+    <string name="weight">الوزن</string>
+    <string name="gender">الجنس</string>
+    <string name="suggetion_to_drink">يجب أن تشرب ١٫٤ل . يمكنك تغيير الكمية لو شئت</string>
+    <string name="tell_your_friends">أخبر أصدقاءك عن ذلك</string>
+    <string name="please_select_one">انت لم تختر أي منتج، يرجى اختيار واحد على الأقل.</string>
+     <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="successfully_saved">تم الحفظ بنجاح.</string>
+    <string name="select_payment_option">حدد خيار الدفع</string>
+    <string name="plzSetLocation">الرجاء اختيار الموقع.</string>
+    <string name="done">تأكيد</string>
+    <string name="no_products_selected">الرجاء إختيار منتج واحد على الأقل</string>
+    <string name="photos">الصور</string>
+    <string name="menu_name">Menu Name</string>
+    <string name="weekly">أسبوعي</string>
+    <string name="two_weeks">إسبوعين</string>
+    <string name="monthly">شهريا</string>
+    <string name="add">إضافة</string>
+    <string name="recurring_orders">طلب متكرر</string>
+    <string name="total">المجموع</string>
+    <string name="product">المنتج</string>
+    <string name="view_order_details">معاينة تفاصيل الطلب</string>
+    <string name="display_options">خيارات العرض</string>
+    <string name="app_feedback">تقييم التطبيق</string>
+    <string name="delivery_feedback">تقييم خدمة التوصيل</string>
+    <string name="query_service">خدمة الاستعلام</string>
+    <string name="terrible">فظيع</string>
+    <string name="bad">سيء</string>
+    <string name="great">ممتاز</string>
+    <string name="awesome">رائع</string>
+    <string name="comments">تعليقات</string>
+    <string name="enter_email">الرجاء إدخال بريدك الالكتروني كي نقوم بالرد عليك</string>
+    <string name="add_photo">إضافة الصورة</string>
+    <string name="add_feedbak">إضافة</string>
+    <string name="no_Cities">لم يتم العثور على المدن</string>
+    <string name="submit_feedbak">إرسال التقييم</string>
+    <string name="no_data">لاتوجد بيانات</string>
+    <string name="no_changes">لم يتم العثور على تغييرات</string>
+    <string name="confirm_detials">الرجاء تأكيد البيانات</string>
+    <string name="plzreenterregmobileoremail">الرجاء إدخال رقم  الهاتف المتحرك أو البريد الالكتروني المسجل</string>
+    <!--****************************************-->
+    <string name="saveaddress">حفظ العناوين</string>
+    <string name="newaddress">العناوين الجديدة</string>
+    <string name="address">  العنوان</string>
+    <string name="notes">ملاحظات</string>
+    <string name="proceed">مواصلة</string>
+    <string name="edit">Edit</string>
+    <string name="weather">طقس</string>
+    <string name="store_location">متاجرنا</string>
+    <string name="track_your_order">أتبع طلبك</string>
+    <string name="gallery">عرض الصور</string>
+    <string name="my_basket">سلة المشتريات</string>
+    <string name="select_days">اختر يوم</string>
+    <string name="clear">واضح</string>
+    <string name="enterNumberofCoupons">أدخل عدد من القسائم</string>
+    <string name="couponAmt">* 90 درهم إماراتي</string>
+    <string name="rate_msz">الرجاء تقييم تجربتك مع التسليم</string>
+    <string name="rate_app_feedback_msz_">الرجاء تقييم انطباعك عن التطبيق</string>
+    <string name="something_wrong">حصل خطأ ما . يرجى المحاولة مرة أخرى</string>
+    <string-array name="drawer_menu_titles_ar">
+        <item>ملفي الشخصي</item>
+        <item>اطلب الان</item>
+        <item>طلباتي</item>
+        <item>طلباتي المتكررة</item>
+        <!--<item>Mai Coupons</item>-->
+        <!-- <item>صالة عرض</item>-->
+        <item>إعدادات</item>
+        <item>شبكة اجتماعية</item>
+        <!--<item>دردشة</item>-->
+        <item>معلومات عنا</item>
+        <item>اتصل بنا</item>
+        <!--<item>المركز الاعلامي</item>-->
+        <item>مقياس الترطيب</item>
+        <item>رأيك يهمنا</item>
+        <item>جدول التسليم</item>
+        <item>تزامن</item>
+        <!--<item>تسليم القادمة</item>-->
+        <!--<item>Game</item>-->
+        <!--<item>خروج</item>-->
+    </string-array>
+    <string-array name="drawer_menu_titles">
+        <item>My Profile</item>
+        <item>Order Now</item>
+        <item>My Orders</item>
+        <item>My Recurring Orders</item>
+        <!--<item>Mai Coupons</item>-->
+        <!--<item>Gallery</item>-->
+        <item>Settings</item>
+        <item>Social Network</item>
+        <!--<item>Chat</item>-->
+        <item>About us</item>
+        <item>Contact us</item>
+        <!--<item>Media Center</item>-->
+        <item>Hydration Meter</item>
+        <item>Feedback</item>
+        <item>Upcoming Deliveries</item>
+        <item>Sync</item>
+        <!--<item>Game</item>-->
+        <!--<item>Logout</item>-->
+    </string-array>
+
+    <integer-array name="drawer_menu_icons">
+        <item>@drawable/myprofile_icon</item>
+        <item>@drawable/order_now_icon</item>
+        <item>@drawable/history_icon</item>
+        <item>@drawable/recurringorder_icon</item>
+        <!--<item>@drawable/mycoupons_icon</item>-->
+        <!-- <item>@drawable/gallery_icon</item>-->
+        <item>@drawable/settings_icon</item>
+        <item>@drawable/socialnetwork_icon</item>
+        <!--<item>@drawable/chat_icon</item>-->
+        <item>@drawable/aboutus_icon</item>
+        <item>@drawable/contactus_icon</item>
+        <!--<item>@drawable/media_icon</item>-->
+        <item>@drawable/hydration_icon</item>
+        <item>@drawable/feedback_icon</item>
+        <item>@drawable/upcoming_del_icon</item>
+        <!--<item>@drawable/water_game_icon</item>-->
+        <item>@drawable/sync</item>
+        <!--<item>@drawable/logout_icon</item>-->
+    </integer-array>
+
+    <string name="english"> الانجليزية</string>
+    <string name="english1">English</string>
+    <string name="arabic">العربية</string>
+    <string name="address_override">يوجد لديك طلب تغير عنوان سابق . هل تود إستبداله؟</string>
+    <string name="on">إستلام</string>
+    <string name="off">إيقاف</string>
+    <!--basketDetails Array List-->
+    <!-- items iicons and its price and quntity-->
+    <!--  <integer-array name="bottol_icons">
+          <item>@drawable/bottle2</item>
+          <item>@drawable/bottle2</item>
+          <item>@drawable/bottle2</item>
+          <item>@drawable/bottle2</item>
+          <item>@drawable/bottle2</item>
+          <item>@drawable/bottle2</item>
+          <item>@drawable/bottle2</item>
+      </integer-array>-->
+
+    <!-- Remove or change this placeholder text -->
+
+    <!-- <string-array name="bottol_price">
+        <item>AED 12.00</item>
+        <item>AED 2.00</item>
+        <item>AED 0.75</item>
+        <item>AED 0.25</item>
+        <item>AED 0.25</item>
+        <item>AED 0.15</item>
+        <item>AED 0.07</item>
+    </string-array>-->
+
+    <string name="healthierwater">الصحة هو المهم. هذا هو السبب، بالإضافة إلى المعادن الضرورية مثل الكالسيوم وكربونات المغنيسيوم و، ماي دبي الماء منخفضة وخاصة في الصوديوم. جعل ماي دبي زجاجة 5 جالون، وهو أدنى مستوى في الصوديوم المحتوى بين 5 زجاجات غالون في دولة الإمارات العربية المتحدة.</string>
+    <string name="Mobile_number">رقم الهاتف المحمول</string>
+    <string name="description">وينتج ماي دبي في منشأة تعبئة عالمية وتصنيع مجهزة بأحدث تكنولوجيا مصدرها بعض من أفضل الموردين في الأعمال التجارية وتدار من قبل أفراد من ذوي المهارات العالية. قبل أن نضع التسمية على مياهنا وغني عن طريق عملية تنقية أن تجعله جديرا بارتداء شعار ماي دبي.</string>
+    <string name="purification">لأول مرة يخضع لمراحل متعددة من الترشيح ثم يمر من خلال تنقية التكنولوجيا الفائقة. والنتيجة هي أعلى جودة المياه النقية.</string>
+    <string name="addingminerals">وأخيرا نحن مزيج لدينا متوازنة بدقة المعادن الغذاء الصف جعل ماي مياه دبي خيارا مثاليا للشرب أو الطبخ.</string>
+    <string name="quality">من استلام المواد الخام إلى المنتج النهائي، ويتم مراقبة الجودة باستمرار من خلال النظم الآلية ويشرف عليها فريق عمل من ذوي الخبرة العالية.</string>
+    <string name="plzenteremail">الرجاء إدخال بريدك الالكتروني</string>
+    <string name="plzentercmnt">الرجاء كتابة ملاحظاتك</string>
+    <string name="search_area">منطقة البحث</string>
+    <string name="search_sub_area">البحث فرعية</string>
+    <string name="plzentername">الرجاء إدخال الاسم</string>
+    <string name="plzenteremirate">الرجاء إدخال إمارة الخاص بك.</string>
+    <string name="plzenterarea">الرجاء إدخال منطقتك.</string>
+    <string name="plzentermobile">الرجاء إدخال الهاتف المتحرك</string>
+    <string name="plzentercity">الرجاء إدخال مدينتك.</string>
+    <string name="plzenterVilla">  الرجاء إدخال إسم الفيلا أو البناية </string>
+    <string name="plzenterotp">الرجاء إدخال الرقم السري المؤقت</string>
+    <string name="plzentercorrectemail">الرجاء إدخال بريد إلكتروني صحيح</string>
+    <string name="plzenterpassword">الرجاء إدخال كلمة السر</string>
+    <string name="plzentervalidpassword">يجب أن تكون كلمة السر باللغة الانجليزية و أن تحتوي على التالي</string>
+    <string name="plzentervalidpassword1">\n[0-9],[a-z],[A-Z]\nويكون مجموعها ما بين [16-8] رقم وحرف</string>
+    <string name="plzenterconfrmpassword">الرجاء إدخال تأكيد كلمة السر.</string>
+    <string name="plzlocation">الرجاء إدخال الدولة.</string>
+    <string name="plzcheckApartment">الرجاء إدخال شقة أي أو رقم الشقة.</string>
+    <string name="plzenterCoupons">الرجاء إدخال أي من القسائم والمضي قدما.</string>
+    <string name="plzcheckLandmark">الرجاء إدخال لاندمارك.</string>
+    <string name="Please_select_the_preferred_time">يرجى اختيار الوقت المفضل.</string>
+    <string name="Please_select_the_recurring_type">الرجاء اختيار نوع متكرر.</string>
+    <string name="Please_select_the_preferred_days">يرجى اختيار الأوقات المناسبة.</string>
+    <string name="plzenteAll">الرجاء إدخال كافة البيانات</string>
+    <string name="ok">حسنا</string>
+    <string name="existingcustomer"> هل لديك إشتراك معنا؟</string>
+    <string name="customer_service">خدمة  العملاء</string>
+    <string name="tel">الهاتف:</string>
+    <string name="fax">رقم الفاكس</string>
+    <string name="office">العنوان</string>
+    <string name="successful_msg">تم تسجيلكم بنجاح في ماي دبي</string>
+    <string name="successful_order">تم  الطلب بنجاح !</string>
+    <string name="select_product">اختر المنتجات</string>
+    <string name="order_history"> سرد الطلبات</string>
+    <string name="save_card">حفظ بطاقة</string>
+    <string name="enter_card_details">إدخال تفاصيل بطاقة</string>
+    <string name="card_number">رقم البطاقة</string>
+    <string name="height">الطول</string>
+    <string name="height_please">الرجاء إدخال الطول</string>
+    <string name="weight_please">الرجاء إدخال الوزن</string>
+    <string name="drink_target">الرجاء إدخال الكمية المراد شربها باليوم</string>
+    <string name="name_card">الاسم على البطاقة</string>
+    <string name="under_development">تحت التطوير</string>
+    <string name="Order_Successfully">وقد وضعت النظام الخاص بك \ بنجاح</string>
+    <string name="delivery_bet">وسوف يتم تسليم طلبك في يوليو 15،2016 \\ بين 16:00 حتي 05:00</string>
+    <string name="gallon_5">5 جالون</string>
+    <string name="aed_12">12.00 درهم إماراتي</string>
+    <string name="confirm_password">تأكيد كلمة السر</string>
+    <string name="birthday">تاريخ الميلاد</string>
+    <string name="anniversary">ذكرى سنوية</string>
+    <string name="name">الإسم</string>
+    <string name="place_the_pin_on_your_exact_location">وضع دبوس في المكان المحدد الخاص بك</string>
+    <string name="confirm_location">تأكيد الموقع</string>
+    <string name="mithilesh_kumar_downtown_dubai_po_box_12324_dubai_wea">ميثيليش كومار \ وسط مدينة دبي ص.ب \ ن 12324 دبي، التحالف الإنجيلي</string>
+    <string name="enter_note">اكتب الملاحظة</string>
+    <string name="mai_gallon_5_litre">ماي جالون 5 لتر</string>
+    <string name="aed">درهم إماراتي</string>
+    <string name="price"></string>
+    <string name="saved_address">العنوان المسجل</string>
+    <string name="use_a_new_address">اطلب تغيير العنوان</string>
+    <string name="flat_no_apartment_number">لا شقة / رقم الشقة</string>
+    <string name="landmark">أقرب معلم للإستدلال</string>
+    <string name="save_address">حفظ  العنوان</string>
+    <string name="select_recurring_type">اختر نوع متكرر</string>
+    <string name="dubai">دبي</string>
+    <string name="monday_wednesday">الاثنين الاربعاء</string>
+    <string name="date_order">10:20 إلى 11:20</string>
+    <string name="may_17">17 مايو</string>
+    <string name="SAR_00">00.00 ريال سعودي</string>
+    <string name="prefferdTime">الوقت المفضل</string>
+    <string name="recurring_type">متكرر نوع</string>
+    <string name="dayes">أيام</string>
+    <string name="save_order">حفظ ترتيب</string>
+    <string name="order_details">تفاصيل الطلب</string>
+    <string name="to">إلى</string>
+    <string name="enter_your_phone_number">الرجاء إدخال رقم الهاتف</string>
+    <string name="mobile_number">رقم  الهاتف المتحرك</string>
+    <string name="landline_number">الرقم الارضي</string>
+    <string name="registration_successful">تم التسجيل بنجاح</string>
+    <string name="welcome">أهلاً بكم!</string>
+    <string name="please_Recurr_type">الرجاء اختيار نوع متكرر.</string>
+    <string name="happy_shopping">استمتعوا بالتسوق!</string>
+    <string name="enter_otp_number">أدخل الرقم السري المؤقت</string>
+    <string name="otp_msg">سيصلك خلال ثواني رقم سري مؤقت على جوالك أو بريدك الالكتروني</string>
+    <string name="verify">تأكيد</string>
+    <string name="resend_otp">إعادة إرسال الرقم السري المؤقت</string>
+    <string name="quantity">الكمية</string>
+    <string name="unit_price">ثمن الوحدة</string>
+    <string name="total_price">المبلغ الكلي المستحق</string>
+    <string name="litere_1_5">1.5 ليتر</string>
+    <string name="select_quantity">إختر الكمية</string>
+    <string name="or_enter_quantity">أو أدخل الكمية المطلوبة</string>
+    <string name="curreny">درهم</string>
+    <string name="mydubai_pure_drinking_water">مي دبي مياه الشرب النقية</string>
+    <string name="amount">قيمة الفاتورة</string>
+    <string name="aed_36">36.00 درهم إماراتي</string>
+    <string name="shipping_charge">رسوم التوصيل</string>
+    <string name="aed_0">0.00 درهم إماراتي</string>
+    <string name="total_payable">المبلغ الكلي المستحق</string>
+    <string name="place_order">أطلب الآن</string>
+    <string name="saved_card">بطاقة المحفوظة</string>
+    <string name="order_code"> كود ترتيب</string>
+    <string name="aed_no">درهم إماراتي لا</string>
+    <string name="downtown_dubai_po_box_12336_dubai_uae">وسط مدينة دبي، ص.ب 12336، دبي الإمارات العربية المتحدة</string>
+    <string name="date">تاريخ</string>
+    <string name="mai_dubai_5_lit">مي دبي 5 مضاءة</string>
+    <string name="mai_3_x_dubai_5_gallon">3 X ماي دبي 5 جالون</string>
+    <string name="mai_dubai_to_expand_water_botteling_facility">مي دبي لتوسيع منشأة لتعبئة المياه</string>
+    <string name="dubai_water_news_detail">ودبي هيئة كهرباء ومياه يوسع منشأة ماي دبي لها في شركة القدرة الطريق</string>
+    <string name="city">مدينة</string>
+    <string name="view_detail">عرض التفاصيل</string>
+    <string name="reset_password_title">الرجاء إدخال  البريد الالكتروني المسجل</string>
+    <string name="email">بريد إلكتروني</string>
+    <string name="reset_pswd">اعادة تعيين كلمة السر</string>
+    <string name="enter_registered_mob_no_or_email">أدخل رقم  الهاتف المتحرك أو البريد الاليكتروني</string>
+    <string name="mobile_num">رقم الهاتف المتحرك</string>
+    <string name="otp_sent_email">سيصلك خلال ثواني رقم سري مؤقت على جوالك أو بريدك الالكتروني</string>
+    <string name="camera">كاميرا</string>
+    <string name="description_title">وصف</string>
+    <string name="mai_dubai_300ml">مي دبي 330ml</string>
+    <string name="purification_title">طهارة</string>
+    <string name="low_sodium_healthier_water">منخفض الصوديوم والماء الصحي</string>
+    <string name="adding_minerals">مضيفا المعادن</string>
+    <string name="quaity_title">جودة</string>
+    <string name="mai_dubai"> ماي دبي</string>
+    <string name="postbox_ttl">صندوق البريد ghghghnffjjjjgffghggh ttyytyt ttrytyy gghgh ghhghhg</string>
+    <string name="warning_not_sign">تحذير!</string>
+    <string name="totalAmt">المبلغ الكلي : </string>
+    <string name="enter_address_detail">أدخل عنوانك كاملاً</string>
+    <string name="emirates">الامارة / المدينة</string>
+    <string name="area">المنطقة</string>
+    <string name="landmarks">معالم</string>
+    <string name="order_id">معرف الطلب: # 45894</string>
+    <string name="order_confirm">تم تاكيد الطلب!</string>
+    <string name="delivery_confirm_now">محمد الشامي وتسليم طلبك في الوقت الحالي</string>
+    <string name="delivery_address">عنوان التوصيل</string>
+    <string name="po_box">ص. مربع 2530،</string>
+    <string name="yalayas_dubai">Yalayas، D63، دبي،</string>
+    <string name="uae">الامارات العربية المتحدة</string>
+    <string name="arrived_in">وصلت في</string>
+    <string name="language">إختيار اللغة</string>
+    <string name="push_notification">إشعارات التطبيق </string>
+    <string name="prefered_time">الوقت المفضل</string>
+    <string name="total_payable_amount">المبلغ الكلي المستحق</string>
+    <string name="pay_by_cash">الدفع نقدا</string>
+    <string name="my_card">بطاقاتي</string>
+    <string name="select_city">اختر المدن</string>
+    <string name="offers">عروض</string>
+    <string name="invite_friends">إدع صديقاً</string>
+
+    <string name="order_number">رقم الطلب</string>
+    <string name="bill_detail"> تفاصيل الفاتورة</string>
+    <string name="sub_total">المجموع</string>
+    <string name="bill_amount">قيمة الفاتورة</string>
+    <string name="delivery_charges">رسوم التوصيل</string>
+    <string name="paid_via_mai_dubai_wallet">تدفع عن طريق: محفظة ماي دبي</string>
+    <string name="use_a_saved_card">استخدام بطاقة محفوظة</string>
+    <string name="add_card">إضافة بطاقة</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="or_login_with">أو تسجيل الدخول عن طريق</string>
+    <string name="sign_up">سجل إشتراك جديد</string>
+    <string name="quantity_relate">0.0 من 0.0l</string>
+    <string name="customer_id">هوية الزبون</string>
+
+    <string name="last_order_detail">معلومات مفصلة عن أمر آخر</string>
+    <string name="repeat_order">اعد الامر</string>
+    <string name="new_order">طلب جديد</string>
+    <string name="po_emirates_add">صندوق بريد 2530، Yalayas، D63، دبي، الإمارات العربية المتحدة</string>
+    <string name="order">الطلب</string>
+    <string name="previous">حالة</string>
+    <string name="status">السابق</string>
+    <string name="aed_1_4">1.4 درهم</string>
+    <string name="day_month">الثلاثاء 5 يونيو</string>
+    <string name="po_box_uae">ص.ب: 2530، يلايس، D63، دبي، الامارات العربية المتحدة</string>
+    <string name="or_sign_up_with"> أو سجل عن طريق</string>
+    <string name="enter_your_basics_details">أدخل بياناتك الأساسية</string>
+    <string name="plzentersmile">الرجاء إختيار إحدى التقييمات</string>
+    <string name="or"> أو</string>
+    <string name="enter_3_digit_cvv_code">إدخال 3 أرقام كود CVV</string>
+    <string name="plz_wait">أرجو الإنتظار...</string>
+    <string name="no_offer_available_now">عروض جديدة مثيرة تأتي في طريقك! تتوفر \ في أي عروض في الوقت الراهن.</string>
+    <string name="orderdelivered">أجل تسليمها.</string>
+    <string name="videos">فيديوهات</string>
+    <string name="save_settings">حفظ، رجاء انتظر....</string>
+    <string name="processing_patient">يرجى الإنتظار ، قد يستغرق لحظات</string>
+    <string name="add_first_glass">مرحباً، الرجاء إضافة أول كمية ماء</string>
+    <string name="add_drink_meter" formatted="false">
+    لقد شربت %s مل من %s مل
+    </string>
+    <string name="order_develiery">إن يوم التوصيل الاسبوعي في منطقتكم هو :</string>
+    <string name="no_area">لم يتم العثور على المناطق</string>
+    <string name="no_subarea">لم يتم العثور فرعية</string>
+    <string name="select_area">اختر المنطقة</string>
+    <string name="select_subarea">حدد منطقة فرعية</string>
+    <string name="plz_select_area">الرجاء إختيار المنطقة</string>
+    <string name="plz_select_Emirates">الرجاء اختيار دولة الإمارات.</string>
+    <string name="sub_ares">المنطقة الفرعية</string>
+    <string name="place_pin">وضع دبوس في المكان المحدد الخاص بك</string>
+    <string name="select_language">إختر اللغة</string>
+    <string name="plzaddtitionalInfo">يرجى إدخال معلومات إضافية.</string>
+    <string name="Order">ORDER</string>
+    <string name="aboutus"> <p align="justify">ماي دبي هي مؤسسة شبه حكومية لتعبئة المياه بدأت نشاطها منذ مارس 2014.</p></string>
+    <string name="aboutus1"> <p align="justify">إن منشأتنا الموجودة في دبي بمنطقة  اليلايس على شارع القدرة ، تتمتع بأفضل التقنيات وأحدثها وتتبع المعايير المحلية ، والإقليمية والعالمية في الانتاج والتعبئة والسلامة .  و قد حصل مصنعنا على شهادة  HACCP ، ISO ، وESMA (علامة الجودة الاماراتيه) وكذلكFDA . باتت ماي دبي بعبواتها ذات اللون الأحمر المميز تحتل مكانة متقدمة في قطاع المنازل والمكاتب في دولة الامارات العربية المتحدة .</p></string>
+    <string name="aboutUs2"> في فبراير 2016 قام سمو الشيخ محمد بن راشد آل مكتوم نائب رئيس الدولة ، رئيس مجلس الوزراء وحاكم دبي مع سمو الشيخ حمدان ولي عهد دبي بزيارة مصنع ماي دبي . وكان في مقدمة مستقبلي سموهما السيد سعيد محمد الطاير رئيس مجلس إدارة ماي دبي وجاي أندريس الرئيس التنفيذى للشركة. ولقد شمل الحضور إدارة ماي دبي وأعضاء مجلس الإدارة وأفراد من الإعلام . إن شركة ماي دبي هي شركة مياه الشرب المعبأة الوحيدة التي اختيرت من قبل بلدية دبي للحصول على جائزة " أفضل مصنع في دبي في سلامة الغذاء" وبفوزها بشهادة امتياز وهي أعلي تصنيف يعطي في سنة 2015. الآن تقوم ماي دبي بتصدير منتجاتها لدول الخليج , أوروبا , أفريقيا وآسيا و سنستمر بتجاوز التوقعات وإعطاء أفضل المنتجات والخدمات .
+    </string>
+    <string name="view_orders">طلباتي</string>
+    <string name="profile">ملفي الشخصي</string>
+    <string name="aboutus_maidubai">معلومات عن ماي دبي</string>
+    <string name="myorders">طلباتي</string>
+    <string name="myrecurringorders">طلباتي المتكررة</string>
+    <string name="socialnetwork">الشبكة الاجتماعية</string>
+    <string name="aboutusttl">معلومات عنا</string>
+    <string name="contactusttl">اتصل بنا</string>
+    <string name="en"> الانجليزية</string>
+    <string name="ar">العربية</string>
+    <string name="total_colon">مجموع:</string>
+    <string name="paidvia">طريقة الدفع : نقداً عند التسليم</string>
+    <string name="paidvia_online">الدفع عبر: ONLINE</string>
+    <string name="pref_saved">لقد قمنا بتحديث اختيارك بنجاح</string>
+    <string name="success">نجاح</string>
+    <string name="age">العمر</string>
+    <string name="address_details">تفاصيل العنوان</string>
+    <string name="order_detaills">تفاصيل الطلب</string>
+    <string name="Continue_Shopping">مواصلة التسوق</string>
+    <string name="total_basket">مجموع:</string>
+    <string name="address_boy">أية تعليمات معينة ؟</string>
+    <string name="flat_number">رقم الفيلا / الشقة</string>
+    <string name="plzenterFlat">الرجاء إدخال رقم الشقة الخاصة بك .</string>
+    <string name="kg">كلغ</string>
+    <string name="meter">متر</string>
+    <string name="reason_cancel">من فضلك قل لنا سبب الإلغاء.</string>
+    <string name="additional">معلومة اضافية</string>
+    <string name="title_cancel_order">إلغاء الطلب</string>
+    <string name="reason_order_cancellation">سبب الإلغاء</string>
+    <string name="exit_confirm">هل أنت متأكد تريد الخروج من التطبيق؟</string>
+    <string name="bldg_name">إسم الفيلا / البناية</string>
+    <string name="app_lauch_msg">عزيزي العميل، نود تذكيركم بأن يوم التوصيل الأسبوعي في منطقتكم هو : </string>
+    <string name="dnt_show_again">لا تظهر لي مرة أخرى</string>
+    <string name="one_hour">ساعة</string>
+    <string name="two_hours">ساعتين</string>
+    <string name="three_hours">٤ ساعات</string>
+    <string name="plzenterorderName">الرجاء أدخل اسم الأمر.</string>
+    <string name="Repeat_Order">اعد الامر</string>
+
+    <string name="Hydration_Settings">إعدادات الماء</string>
+    <string name="turn_on">تشغيل</string>
+    <!--<string name="drink">%sl من %sl</string>-->
+    <string name="street_ar">شارع</string>
+    <string name="cancel_Recurr">إلغاء متكرر</string>
+    <string name="deliver_name">وسيتم تسليم الطلب الخاص بك على:</string>
+    <string name="more_qty">لا تستطيع طلب أكثر من كمية٪ الصورة. يرجى تغيير الكمية.</string>
+    <string name="Recurr_Removed">متكرر إزالتها.</string>
+    <string name="order_limit">إن هذا الطلب يعتمد على توفر الكمية عند التسليم . سوف نقوم بالتواصل معكم</string>
+
+    <string name="address_removed_sucess">تمت إزالة عنوان بنجاح.</string>
+    <string name="repeat_order_cap">اعد الامر</string>
+    <string name="more_drink_addding">لديك إضافة المزيد من المقترح.</string>
+    <string name="notify_me">ذكرني كل</string>
+    <string name="Order_Date">تاريخ الطلب</string>
+    <string name="min_order_qty">أقل كمية ممكن طلبها</string>
+    <string name="order_date">تاريخ الطلب</string>
+    <string name="contactcustomer">لتغيير رقم الهاتف أو البريد الالكتروني يرجى الاتصال بنا</string>
+
+
+    //New changes
+    <string name="No_GPS_turn_on">الرجاء تشغيل تحديد المواقع للإستمتاع بجميع مزايا التطبيق</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="emailId">البريد الالكتروني</string>
+    <string name="email_address">البريد الالكتروني</string>
+    <string name="email_colon">البريد الالكتروني:</string>
+    <string name="next">الصفحة التالية</string>
+    <string name="accessories">الاكسسوارات</string>
+    <string name="water_range">منتجاتنا</string>
+    <string name="selectaddress">اختر العنوان</string>
+    <string name="active">مستخدم حالياً</string>
+    <string name="pending">قيد العمل</string>
+    <string name="order_name">إعطاء إسم مخصص لهذا الطلب (اختياري) :</string>
+    <string name="order_name_ex">طلب شهري ، حفلة ..إلخ</string>
+    <string name="note_hint">الرجاء الكتابة هنا…</string>
+    <string name="recurr">كرر هذا الطلب</string>
+    <string name="order_success">تم الطلب بنجاح</string>
+    <string name="order_suss">تم تسجيل طلبك %s  بنجاح \n يرجى التحقق من البريد الالكتروني لمزيد من التفاصيل</string>
+    <string name="Quantity">الكمية </string>
+    <string name="UnitPrice">ثمن الوحدة</string>
+    <string name="TotalPrice">المبلغ الكلي </string>
+
+    <string name="recurringorder">طلب متكرر</string>
+    <string name="order_cancel">تم إلغاء الطلب</string>
+    <string name="mai_dubai_contact">800MAIDUBAI(800-62438224)</string>
+    <string name="disclaimer">تنويه</string>
+    <string name="disclaimer_msg">
+        إن مقياس الترطيب قد وضع كمؤشر لكمية الماء التي يجب شربها بناء على المعلومات الأساسية المعطاة. قد تكون إحتياجات جسمك مختلفة عن الآخرين بناء على عوامل أخرى.
+إذا كنت تقوم ببرامج تدريبية أو طبية معينة فإنه يجب إستشارة أخصائي لمعرفة إحتياجات جسمك  للماء. استشر طبيبك قبل البدء ببرنامج غذائي أو رياضي.
+
+    </string>
+    <string name="accept">موافقه</string>
+    <string name="cancel">إلغاء</string>
+    <string name="hydration_meter">مقياس الترطيب</string>
+    <string name="you_drink">مرحباً، يجب أن تشرب اليوم على الاقل %s لتر من الماء.</string>
+    <string name="select">إختيار</string>
+    <string name="custom">أدخل الكمية</string>
+
+
+    <string name="onehundredml">100 مل</string>
+    <string name="twohundredml">200 مل</string>
+    <string name="threethirtydml">330 مل</string>
+    <string name="fivehundredml">500 مل</string>
+    <string name="thousandml">1000 مل</string>
+    <string name="ml"> مل</string>
+    <string name="Meters">متر</string>
+    <string name="settings">الاعدادات</string>
+    <string name="Years">عاماً</string>
+    <string name="rest">إعادة تعيين الكمية المراد شربها</string>
+    <string name="You_have_accepted"><u>عرض التنويه الموافق عليه</u></string>
+    <string name="DO_You_want_to_reset">هل أنت متأكد أنك تريد إعادة التعيين ؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="more_sugest">أحسنت !  لقد شربت أكثر من الكمية المقترحة. يرجى إعادة تعيين الكمية.</string>
+    <string name="alert">تنبيه</string>
+    <string name="feedback">رأيك يهمنا</string>
+    <string name="okey">مقبول</string>
+    <string name="feedback_success">لقد تم إرسال التقييم بنجاح</string>
+    <string name="paswordandconfrmpassword">يجب أن تتطابق كلمة السر وتأكيد كلمة السر</string>
+    <string name="fetching_areas">تحميل المناطق و المناطق الفرعية...</string>
+    <string name="address_hint">أقرب معلم للإستدلال[مثال : خلف مدرسة ...]</string>
+    <string name="continue_a">الصفحة التالية</string>
+    <string name="menu_footer">يوم التوصيل الأسبوعي في منطقتكم هو :</string>
+    <string name="manageaddress">تغيير العنوان</string>
+    <string name="recurr_order">اجعله طلب متكرر</string>
+    <string name="plzReason">الرجاءاختيار السبب</string>
+    <string name="rest_hydra">إعادة تعيين الكمية المراد شربها</string>
+
+    <string name="Once_in_a_Week">أسبوعياً</string>
+    <string name="editOrderMsg">This action will remove the current order and will create a new order based on your cart activity. Are you sure you want to continue?</string>
+    <string name="Once_in_two_Weeks">كل اسبوعين</string>
+    <string name="Once_in_3_Weeks">كل 3 اسابيع</string>
+    <string name="Once_in_a_Month">مرة بالشهر</string>
+
+    <string name="order_placing_text">يرجى الانتظار ، يتم عمل طلبك ....</string>
+    <string name="Saturday">السبت</string>
+    <string name="Sunday">الأحد</string>
+    <string name="Monday">الاثنين</string>
+    <string name="Tuesday">الثلاثاء</string>
+    <string name="Wednesday">الأربعاء</string>
+    <string name="Thursday">الخميس</string>
+
+    <string name="currency"> درهم</string>
+    <string name="selectreasonforcancellation">الرجاءاختيار السبب</string>
+    <string name="DO_You_want_to_recurr_Order">هل تود تكرار هذا الطلب؟</string>
+    <string name="Go_to_recur_orders">الذهاب إلى طلباتي المتكررة</string>
+    <string name="OK">نعم</string>
+    <string name="maxrecurringorders">لقد سجلت الحد الأعلى من الطلبات المتكررة</string>
+    <string name="minquantity">أقل كمية ممكن طلبها</string>
+    <string name="No_Orders">You did not select any item Please select at least one</string>
+    <string name="back_to_shopping">العودة للشراء</string>
+    <string name="sucessfully_address_saved">لقد تم إرسال طلب تغيير العنوان</string>
+    <string name="schudle_total_days">لديك %s طلبات خلال الشهر القادم </string>
+    <string name="send_feedback">رأيك يهمنا</string>
+    <string name="na">لا يوجد</string>
+    <string name="special_instr">تعليمات خاصة :</string>
+    <string name="DO_You_want_to_remove_address">هل تود إلغاء هذا العنوان ؟</string>
+    <string name="OTP_sent">لقد تم إرسال الرقم السري المؤقت. الرجاء إدخال الرقم</string>
+    <string name="passwordsentsuccessfully">تم إرسال كلمة السر بنجاح</string>
+    <string name="select_emirates">الرجاء اختيار الامارة</string>
+    <string name="addedtocart">أضيفت للسلة</string>
+    <string name="schudle_days">جدول التسليم</string>
+    <string name="search_emairates">ابحث عن الإمارة</string>
+    <string name="gotosettings">الرجاء ضبط الإعدادات</string>
+    <string name="recurr_warning">لا يمكن تكرار الطلب الآن. يرجى الإنتظار حتى يتم تسجيل الطلب الجديد.</string>
+    <string name="recurringnarration">الطلب المتكرر هو طلب يتم عمله بتكرار محدد من قبلك . سيبقى الطلب مكررا حتى تقوم بالغائه</string>
+
+    <string name="payment_type">اختر طريقة دفع واحدة.</string>  <!--vinod-->
+    <string name="rbIsCode"> COD </string>  <!--vinod-->
+    <string name="rbRossom"> Rossom</string>  <!--vinod-->
+    <string name="payment"> دفع</string>  <!--vinod-->
+    <string name="total_vat">مجموع مبلغ ضريبة القيمة المضافة</string>  <!--vinod-->
+    <string name="enter_deliverty_date">تاريخ التسليم الخاص بك</string>
+
+    <string name="select_delivery_date">"الرجاء تحديد تاريخ التسليم للمتابعة"</string>
+    <string name="facebook_app_id">2007397919511516</string>
+    <string name="fb_login_protocol_scheme">fb2007397919511516</string>
+
+</resources>

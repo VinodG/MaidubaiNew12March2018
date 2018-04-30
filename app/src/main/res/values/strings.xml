@@ -1,0 +1,670 @@
+<resources>
+
+    <string name="app_name">Mai Dubai</string>
+    <string name="currency_code">AED</string>
+    <string name="password">Password</string>
+    <string name="alert">ALERT</string>
+    <string name="warning">WARNING</string>
+    <string name="water_range">Water Range</string>
+    <string name="accessories">Accessories</string>
+    <string name="by_day">Day</string>
+    <string name="by_month">Month</string>
+    <string name="open_weather_maps_app_id">3362480061efe725f9a79728377d88a8</string>
+    <string name="place_not_found">Sorry, no weather data found.</string>
+    <string name="OK">OK</string>
+    <string name="rest_hydra">RESET</string>
+    <string name="turn_on">TURN ON</string>
+    <string name="existingcustomer">EXISTING CUSTOMER?</string>
+    <string name="No_Network">This application requires internet connection. Please check your internet connection.</string>
+    <string name="check_network">Please Check Internet connection.</string>
+    <string name="No_GPS">Please turn on the GPS...!</string>
+    <string name="No_GPS_turn_on">Please turn on the location to enjoy all App features...!</string>
+    <string name="cancel">CANCEL</string>
+    <string name="logout">Log out</string>o items
+    <string name="Loading_Data">Loading Data....</string>
+    <string name="something_wrong">Some thing went wrong. Please try Again....!</string>
+    <string name="logout_msg">Are you sure you want Logout?</string>
+    <string name="sucessfully_address_saved">Your address has been sent for processing.</string>
+    <string name="save">Save</string>
+    <string name="rest">Reset</string>
+    <string name="forgot_password">ForgotPassword ?</string>
+    <string name="change_language">Change Language ?</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="add_one_glass_of_water">Hi, add your\n first glass of water for today.</string>
+    <string name="You_have_accepted"><u>Accepted Disclaimer</u></string>
+    <string name="well_done">Well done!\nToday you drank</string>
+    <string name="you_drink">Hi, you need to drink  atleast %s litres of water for today.</string>
+    <!--<string name="drink">%sl of %sl</string>-->
+    <string name="performed_normal">Today you performed \n excellent, congratulations!</string>
+    <string name="add_drink">ADD DRINK</string>
+    <string name="LOGIN_FAILED">LOGIN FAILED! Please try again.</string>
+    <string name="SIGNUP_FAILED">SIGNUP FAILED! Please try again.</string>
+    <string name="notification">Notification</string>
+    <string name="no_orders_available">No Orders Available</string>
+    <string name="no_media_available">No Media Available</string>
+    <string name="no_address_available">No Addresses Available</string>
+    <string name="no_products_available">No Products Available</string>
+    <string name="no_images">No Images found</string>
+    <string name="no_Cities">No Cities found</string>
+    <string name="no_videos">No Videos found</string>
+    <string name="conform_payment">Conform Payment</string>
+    <string name="cancel_order">CANCEL ORDER</string>
+    <string name="recurr_order">RECUR ORDER</string>
+    <string name="recurringorder">Recurring order</string>
+    <string name="Meters">Meters</string>
+    <string name="Years">Years</string>
+    <string name="conform">CONFIRM</string>
+    <string name="Click_Proceed_to_Payment">Click Proceed to Payment.</string>
+    <string name="DO_You_want_to_Recurr_Order">Do you want to add the items to Recurring.</string>
+    <string name="Unable_to_address">Unable fetch the address. \nPlease fill the details.</string>
+    <string name="DO_You_want_to_cancel_Order">Do you want to cancel\n   this Order?</string>
+    <string name="DO_You_want_to_Repeat_Order">Do you want to repeat this Order?</string>
+    <string name="DO_You_want_to_recurr_Order">Do you want to recur this Order?</string>
+    <string name="DO_You_want_to_clear_Order">Are you sure you want to clear the items?</string>
+    <string name="DO_You_want_to_remove_item">Are you sure you want to remove the item?</string>
+    <string name="DO_You_want_to_cancel_recurring">Are you sure you want to cancel the Recurring?</string>
+    <string name="DO_You_want_to_remove_address">Are you sure you want to remove this address?</string>
+    <string name="DO_You_want_to_reset">Are you sure you want to reset?</string>
+    <string name="Order_Successfully_saved">Order Successfully Saved.</string>
+    <string name="Order_Successfully_Placed">Order Successfully Placed.</string>
+    <string name="Please_provide_us_your_valuable_feedback">Please provide us your valuable feedback.</string>
+    <string name="please_select_address">Your address has not been submitted. \nPlease add an address from manage address.</string>
+    <string name="OTP_sent">OTP has successfully sent. Please Verify...</string>
+    <string name="OTP_sent_fail">Failed to Send OTP...</string>
+    <string name="payment_successfull">Payment.</string>
+    <string name="Proceed">Proceed</string>
+    <string name="recurring_order">recurring_order</string>
+    <string name="city_name">City Name</string>
+    <string name="order_cancel">Order Cancelled.</string>
+    <string name="Recurr_Removed">Recurring Removed.</string>
+    <string name="confirm">Confirmation</string>
+    <string name="confirmation">Are you sure do want to delete this Order?</string>
+    <string name="setLoaction">Select Location</string>
+    <string name="incorrect">Incorrect mobile no or email.</string>
+    <string name="invliad">Please enter valid \nmobile no or email id. </string>
+    <string name="Already_emailId">Email/Mobile already Exist. </string>
+    <string name="moreInfo">For more information \n Please contact our customer service. </string>
+    <string name="mobile_no">+971 4 885 8905 </string>
+    <string name="Mobile_number">Mobile number</string>
+
+    <string name="ordered_products">Ordered Products</string>
+    <string name="search_cities"> Search Cities </string>
+    <string name="no_offer_available"> Exciting new offers are coming your way! </string>
+    <string name="age">Age</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="gender">Gender</string>
+    <string name="suggetion_to_drink">You should drink 1.4l of water a day, but you may change the number if you wish</string>
+    <string name="tell_your_friends">Tell your friends about it</string>
+    <string name="please_select_one">No items to display.\n Please select at least one.</string>
+    <string name="No_Orders">You did not select any item Please select at least one</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="suggestion_warning">Please enter the Suggestion Drink Quantity in Settings.</string>
+    <string name="successfully_saved">Successfully Saved.</string>
+    <string name="no_changes">No Changes found.</string>
+    <string name="age_please">Please enter the age.</string>
+    <string name="gender_please">Please select the gender.</string>
+    <string name="height_please">Please enter the height.</string>
+    <string name="valid_weight">Weight can not be less than 30.</string>
+    <string name="weight_please">Please enter the weight.</string>
+    <string name="Hydration_Settings">Hydration Settings</string>
+    <string name="drink_target">Please enter the drink target.</string>
+    <string name="select_payment_option">Select Payment Option</string>
+    <string name="plzSetLocation">Please Select Location.</string>
+    <string name="done">Done</string>
+    <string name="view_orders">My Orders</string>
+    <string name="close">Close</string>
+    <string name="no_products_selected">Please select atleast one product.</string>
+    <string name="photos">Photos</string>
+    <string name="confirm_detials">Please Confirm the details.</string>
+    <string name="cancle_order">Cancel order</string>
+    <string name="view_detail">VIEW DETAILS</string>
+    <string name="menu_name">Menu Name</string>
+    <string name="weekly">Weekly</string>
+    <string name="two_weeks">Two Weeks</string>
+    <string name="monthly">Monthly</string>
+    <string name="add">Add</string>
+    <string name="recurring_orders">Recurring Orders</string>
+    <string name="total">Total</string>
+    <string name="prefferdTime">Prefferd Time</string>
+    <string name="recurring_type">Recurring Type</string>
+    <string name="dayes">Days</string>
+    <string name="save_order">Save Order</string>
+    <string name="order_details">Order Details</string>
+    <string name="order_develiery">Our Delivery Executives delivers water in your area on:</string>
+    <string name="fetching_areas">Fetching Areas and Sub Areas...</string>
+    <string name="no_area">No Area found</string>
+    <string name="no_emirate">No Emirate found</string>
+    <string name="no_subarea">No SubArea found</string>
+    <string name="select_area">Select Area</string>
+    <string name="select_emirates">Select Emirates</string>
+    <string name="select_subarea">Select SubArea</string>
+    <string name="select_quantity">Select Quantity</string>
+    <string name="product">Product</string>
+    <string name="plz_select_area">Please select the Area.</string>
+    <string name="plz_select_Emirates">Please select the Emirates.</string>
+    <string name="view_order_details">View Order Details</string>
+    <string name="display_options">Display Options</string>
+    <string name="app_feedback">App Feedback</string>
+    <string name="delivery_feedback">Service Delivery Feedback</string>
+    <string name="query_service">Query Service</string>
+    <string name="feedback">Feedback</string>
+    <string name="terrible">Terrible</string>
+    <string name="bad">Bad</string>
+    <string name="okey">Ok</string>
+    <string name="great">Great</string>
+    <string name="awesome">Awesome</string>
+    <string name="comments">Comments</string>
+    <string name="enter_email">Enter your email for us to get back to you</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="add_feedbak">Add</string>
+    <string name="submit_feedbak">SUBMIT FEEDBACK</string>
+    <string name="order_suss">Your order %s has been placed successfully. \nPlease check email for order details</string>
+
+
+    <!--****************************************-->
+    <string name="mybasket">My Basket</string>
+    <string name="manageaddress">Manage Addresses</string>
+    <string name="selectaddress">Select Address</string>
+    <string name="saveaddress">Save Address</string>
+    <string name="newaddress">New Address</string>
+    <string name="address">Address</string>
+    <string name="place_pin">Place the pin on your exact location</string>
+    <string name="notes">Notes</string>
+    <string name="continue_a">Continue</string>
+    <string name="editOrderMsg">This action will remove the current order and will create a new order based on your cart activity. Are you sure you want to continue?</string>
+    <string name="proceed">Proceed</string>
+    <string name="next">NEXT</string>
+    <string name="edit">Edit</string>
+    <string name="weather">Weather</string>
+    <string name="store_location">Store Locations</string>
+    <string name="track_your_order">Track Your Order</string>
+    <string name="hydration_meter">Hydration Meter</string>
+    <string name="schudle_days">Upcoming Delivery Schedule</string>
+    <string name="schudle_total_days">You have %s scheduled deliveries in next 30 days.</string>
+    <string name="settings">Settings</string>
+    <string name="my_basket">My Basket</string>
+    <string name="title_cancel_order">Cancel Order</string>
+    <string name="select_days">Select Days</string>
+    <string name="order_success">Order Successful</string>
+    <string name="clear">Clear</string>
+    <string name="enterNumberofCoupons">Enter Number of Coupons</string>
+    <string name="couponAmt">* 90 AED</string>
+    <string name="curreny">AED</string>
+    <string name="totalAmt">Total Amount : </string>
+    <string name="reset_password_title">Please enter the Email id you used to register with Mai Dubai</string>
+    <string name="enter_notes">Please enter notes.</string>
+    <string name="recurr_warning">Due to a pending address change, you cannot request a recurring order. Please wait until the new information is updated.</string>
+    <string name="address_removed_sucess">Address has been successfully removed.</string>
+    <string name="order_limit">This order is subject to availability at the time of delivery. We will contact you.</string>
+    <string name="email">Email-id</string>
+    <string name="reset_pswd">SEND PASSWORD</string>
+    <string name="existing_customer">EXISTING CUSTOMER ?</string>
+    <string name="Sign_up">SIGN UP</string>
+    <string name="rate_msz">Please rate your experience with the delivery</string>
+    <string name="rate_app_feedback_msz_">Please rate your experience with the App</string>
+    <string name="rate_msz_feedback">Please rate your experience </string>
+    <string name="send_feedback">Feedback</string>
+    <string name="back_to_shopping">BACK TO SHOPPING</string>
+    <string name="Repeat_Order">Repeat Order</string>
+    <string-array name="drawer_menu_titles">
+        <item>My Profile</item>
+        <item>Order Now</item>
+        <item>My Orders</item>
+        <item>My Recurring Orders</item>
+        <!--<item>Recurring Orders</item>-->
+        <!--<item>Mai Coupons</item>-->
+        <!--<item>Gallery</item>-->
+        <item>Settings</item>
+        <item>Social Network</item>
+        <!--<item>Chat</item>-->
+        <item>About us</item>
+        <item>Contact us</item>
+        <!--<item>Media Center</item>-->
+        <item>Hydration Meter</item>
+        <item>Feedback</item>
+        <item>Upcoming Deliveries</item>
+        <item>Sync</item>
+        <!--<item>Game</item>-->
+        <!--<item>Logout</item>-->
+    </string-array>
+    <string-array name="drawer_menu_titles_ar">
+        <item>My Profile</item>
+        <item>Order Now</item>
+        <item>My Orders</item>
+        <item>My Recurring Orders</item>
+        <!--<item>Recurring Orders</item>-->
+        <!--<item>Mai Coupons</item>-->
+        <!--<item>Gallery</item>-->
+        <item>Settings</item>
+        <item>Social Network</item>
+        <!--<item>Chat</item>-->
+        <item>About us</item>
+        <item>Contact us</item>
+        <!--<item>Media Center</item>-->
+        <item>Hydration Meter</item>
+        <item>Feedback</item>
+        <!--<item>Game</item>-->
+        <item>Upcoming Deliveries</item>
+        <item>Sync</item>
+        <!--<item>Logout</item>-->
+    </string-array>
+
+    <integer-array name="drawer_menu_icons">
+        <item>@drawable/myprofile_icon</item>
+        <item>@drawable/order_now_icon</item>
+        <item>@drawable/history_icon</item>
+        <item>@drawable/recurringorder_icon</item>
+        <!--<item>@drawable/recurringorder_icon</item>-->
+        <!--<item>@drawable/mycoupons_icon</item>-->
+        <!--<item>@drawable/gallery_icon</item>-->
+        <item>@drawable/settings_icon</item>
+        <item>@drawable/socialnetwork_icon</item>
+        <!--<item>@drawable/chat_icon</item>-->
+        <item>@drawable/aboutus_icon</item>
+        <item>@drawable/contactus_icon</item>
+        <!--<item>@drawable/media_icon</item>-->
+        <item>@drawable/hydration_icon</item>
+        <item>@drawable/feedback_icon</item>
+        <!--<item>@drawable/feedback_icon</item>-->
+        <!--<item>@drawable/water_game_icon</item>-->
+        <item>@drawable/upcoming_del_icon</item>
+        <item>@drawable/sync</item>
+       <!-- <item>@drawable/logout_icon</item>-->
+    </integer-array>
+
+    <!--basketDetails Array List-->
+    <!-- items iicons and its price and quntity-->
+    <!-- <integer-array name="bottol_icons">
+         <item>@drawable/bottle2</item>
+         <item>@drawable/bottle2</item>
+         <item>@drawable/bottle2</item>
+         <item>@drawable/bottle2</item>
+         <item>@drawable/bottle2</item>
+         <item>@drawable/bottle2</item>
+         <item>@drawable/bottle2</item>
+     </integer-array>-->
+
+    <string-array name="bottol_descriptions">
+        <item>Mai Dubai Pure Drinking water 5 gallon bottols</item>
+        <item>Mai Dubai Pure Drinking water 1.5 liter bottols</item>
+        <item>Mai Dubai Pure Drinking water 500 ml bottols</item>
+        <item>Mai Dubai Pure Drinking water 330 ml bottols</item>
+        <item>Mai Dubai Pure Drinking water 200 ml bottols</item>
+        <item>Mai Dubai Pure Drinking water 200 ml small bottols</item>
+        <item>Mai Dubai Pure Drinking water 100 ml bottols</item>
+    </string-array>
+    <string-array name="bottol_quantity">
+        <item>5 Gallon</item>
+        <item>1.5 litre</item>
+        <item>500 ml</item>
+        <item>330 ml</item>
+        <item>200 ml</item>
+        <item>200 ml</item>
+        <item>100 ml</item>
+    </string-array>
+    <string name="our_vision"><font fgcolor="black">Our Vision</font> A Regional Leading Sustainable,Innovative Bottel Water Provider</string>
+    <string name="our_mission"><font fgcolor="black">Our Mission</font> To grow through,exceeding costomers expectation providing premium products and services,in an innovative,safe,efficient and happy work place,while proactively being responsible towards our society and environment.</string>
+
+    <!-- Remove or change this placeholder text -->
+
+    <!-- <string-array name="bottol_price">
+        <item>AED 12.00</item>
+        <item>AED 2.00</item>
+        <item>AED 0.75</item>
+        <item>AED 0.25</item>
+        <item>AED 0.25</item>
+        <item>AED 0.15</item>
+        <item>AED 0.07</item>
+    </string-array>-->
+    <string-array name="address">
+        <item>Downtown Dubai,PO Box \n12336,Dubai UAE </item>
+
+    </string-array>
+
+
+    <string name="description">Mai Dubai is produced in a world class bottling and manufacturing facility equipped with the latest technology sourced from some of the best suppliers in the business and managed by highly skilled individuals. Before we put the label on our water it goes through a purification process that makes it worthy to wear the Mai Dubai logo.</string>
+    <string name="purification">First it undergoes multiple stages of filteration then it passes through a high-tech purification. The result is the highest quality pure water.</string>
+    <string name="healthierwater">Health is important. That is why, in addition to essential minerals such as Calcium, Bicarbonate and Magnesium, Mai Dubai water is particularly low in Sodium; making Mai Dubai\'s 5 gallon bottle, the lowest in Sodium content amongst 5 gallon bottles in the UAE.</string>
+    <string name="addingminerals">Finally we blend in our precisely balanced food grade minerals making Mai Dubai water an ideal choice for drinking or cooking.</string>
+    <string name="quality">From receiving of raw material to finished product, quality is constantly monitored through, computerized systems and supervised by a highly experienced staff.</string>
+    <string name="plzenteremail">Please enter your email.</string>
+    <string name="plzaddtitionalInfo">Please enter additional information.</string>
+    <string name="plzReason">Please select reason type.</string>
+    <string name="plzentercmnt">Please enter your comment.</string>
+    <string name="plzentersmile">Please select one Rate icon.</string>
+
+    <string name="plzentername">Please enter your name.</string>
+    <string name="plzenteremirate">Please enter your Emirate.</string>
+    <string name="plzenterorderName">Please enter your OrderName.</string>
+    <string name="plzentermobile">Please enter your Mobile number.</string>
+    <string name="plzentervalidmobile">Please enter valid Mobile number.</string>
+    <string name="plzentercity">Please enter your City.</string>
+    <string name="plzenterarea">Please enter your Area.</string>
+    <string name="plzenterFlat">Please enter your Flat Number.</string>
+    <string name="plzenterVilla">Please enter your Villa Name.</string>
+    <string name="plzenterotp">Please enter OTP.</string>
+    <string name="plzentercorrectemail">Please enter a valid email.</string>
+    <string name="plzenterpassword">Please enter password.</string>
+    <string name="plzentervalidpassword">Password must include</string>
+    <string name="plzentervalidpassword1">[0-9], [a-z],\n[A-Z] and between [8 to 16] characters</string>
+    <string name="plzenterconfrmpassword">Please enter confirm password.</string>
+    <string name="paswordandconfrmpassword">Password and Confirmed password Should be the same.</string>
+    <string name="plzreenterpassword">Please Re enter password.</string>
+    <string name="plzreenterregmobile">Please enter your registered mobile number.</string>
+    <string name="plzreenterregmobileoremail">Please enter your registered mobile number or Email Id.</string>
+    <string name="plzlocation">Please enter location.</string>
+    <string name="plzcheckApartment">Please enter Flat no or Apartment number.</string>
+    <string name="plzenterCoupons">Please enter the no of coupons to proceed.</string>
+    <string name="plzcheckLandmark">Please enter Landmark.</string>
+    <string name="plzcheckregmobile">Please check your registered mobile number.</string>
+    <string name="plzcheckregmobileormobile">Please check your registered mobile number or Email Id.</string>
+    <string name="Please_select_the_preferred_time">Please select the preferred time.</string>
+    <string name="Please_select_the_recurring_type">Please select the recurring type.</string>
+    <string name="Please_select_the_preferred_days">Please select the preferred days.</string>
+    <string name="plzenteAll">Please enter all the Details.</string>
+    <string name="ok">Ok</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="confirm_details">Details Confirmation</string>
+    <string name="customer_service">Customer Service:</string>
+    <string name="tel">Tel:</string>
+    <string name="email_colon">Email:</string>
+    <string name="fax">Fax:</string>
+    <string name="office">Address:</string>
+    <string name="successful_msg">You have successfully registered \nto Mai Dubai</string>
+    <string name="successful_order">Order successful!!</string>
+    <string name="select_product">Select Products</string>
+    <string name="order_history">Order history</string>
+    <string name="please_select_drink">Please select the ml of water to add to glass.</string>
+    <string name="please_Recurr_type">Please select the Recurring type.</string>
+    <string name="more_drink_addding">Your adding more than the suggested.</string>
+    <string name="save_card">save card</string>
+    <string name="enter_card_details">Enter Card Details</string>
+    <string name="card_number">Card number</string>
+    <string name="name_card">Name on card</string>
+
+    <string name="email_address">email address</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="birthday">Birthday</string>
+    <string name="anniversary">Anniversary</string>
+    <string name="enter_your_basics_details">Enter your Basics Details</string>
+    <string name="or_sign_up_with">Or Sign up with</string>
+    <string name="place_the_pin_on_your_exact_location">Place the pin on your exact location</string>
+    <string name="confirm_location">Confirm location</string>
+    <string name="enter_note">Enter note</string>
+    <string name="mithilesh_kumar_downtown_dubai_po_box_12324_dubai_wea">Mithilesh Kumar \nDownTown dubai PO Box \n 12324 Dubai,WEA</string>
+    <string name="mai_gallon_5_litre">Mai Gallon 5 litre</string>
+    <string name="aed">AED</string>
+    <string name="price">Price</string>
+    <string name="active">Active</string>
+    <string name="pending">Pending</string>
+    <string name="saved_address">Saved Address</string>
+    <string name="use_a_new_address">Use a New Address</string>
+    <string name="flat_no_apartment_number">Flat no / Apartment Number</string>
+    <string name="landmark">Landmark</string>
+    <string name="save_address">Save Address</string>
+    <string name="saving_address">saving Address</string>
+    <string name="select_recurring_type">Select Recurring Type</string>
+    <string name="may_17">May 17</string>
+    <string name="dubai">Dubai</string>
+    <string name="monday_wednesday">Monday,Wednesday</string>
+    <string name="date_order">10:20 AM TO 11:20AM</string>
+    <string name="SAR_00">SAR 00.00</string>
+    <string name="to">To</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="landline_number">Landline number</string>
+    <string name="registration_successful">Registration Successful</string>
+    <string name="welcome">Welcome!</string>
+    <string name="happy_shopping">Happy Shopping</string>
+    <string name="enter_otp_number">Enter OTP number !</string>
+    <string name="otp_msg">We sent you a 4 digit OTP number to your mobile,\\nit may take a few seconds to recieve.</string>
+    <string name="verify">Verify</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="quantity">quantity</string>
+    <string name="unit_price">Unit Price</string>
+    <string name="total_price">Total Price</string>
+    <string name="litere_1_5">1.5 litere</string>
+    <string name="or_enter_quantity">Or Enter Quantity</string>
+    <string name="mydubai_pure_drinking_water">Mydubai pure drinking water</string>
+    <string name="gallon_5">5 gallon</string>
+    <string name="aed_12">AED 12.00</string>
+    <string name="amount">Amount</string>
+    <string name="aed_36">AED 36.00</string>
+    <string name="shipping_charge">Shipping Charge</string>
+    <string name="aed_0">AED 0.00</string>
+    <string name="total_payable">Total Payable</string>
+    <string name="place_order">Place Order</string>
+    <string name="saved_card">Saved Card</string>
+    <string name="order_code">Order Code</string>
+    <string name="aed_no">AED No</string>
+    <string name="downtown_dubai_po_box_12336_dubai_uae">Downtown Dubai,PO Box 12336,Dubai UAE</string>
+    <string name="date">Date</string>
+    <string name="mai_dubai_5_lit">mai dubai 5 lit</string>
+    <string name="mai_3_x_dubai_5_gallon">3 X Mai Dubai 5 Gallon</string>
+    <string name="mai_dubai_to_expand_water_botteling_facility">Mai Dubai to expand water botteling facility</string>
+    <string name="dubai_water_news_detail">Dubai Electricity and Water Authority will expands its Mai Dubai facility at Al Qundora Road</string>
+    <string name="enter_3_digit_cvv_code">Enter 3 digit cvv code</string>
+    <string name="city">City</string>
+    <string name="flat_number">Villa/Flat Number</string>
+    <string name="bldg_name">Bldg/Villa Name</string>
+    <string name="under_development">Under Development</string>
+    <string name="Order_Successfully">Your Order has been placed \nsuceessful</string>
+    <string name="delivery_bet">Your Order will be delivered on July 15,2016 \\nbetween 4:00pm to 5:00pm</string>
+    <string name="name">Name</string>
+    <string name="enter_registered_mob_no_or_email">Enter Registered Mobile no or Email Id</string>
+    <string name="mobile_num">Mobile Number</string>
+    <string name="emailId">Email Id</string>
+    <string name="otp_sent_email">* OTP will be sent to the registered mobile number Or Email id</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="description_title">Description</string>
+    <string name="mai_dubai_300ml">Mai dubai 330 ml</string>
+    <string name="purification_title">Purification</string>
+    <string name="low_sodium_healthier_water">Low Sodium,healthier water</string>
+    <string name="adding_minerals">Adding Minerals</string>
+    <string name="quaity_title">Quaity</string>
+    <string name="mai_dubai">Mai Dubai</string>
+    <string name="postbox_ttl">POBox ghghghnffjjjjgffghggh  ttyytyt ttrytyy gghgh ghhghhg</string>
+    <string name="warning_not_sign">Warning!</string>
+    <string name="enter_address_detail">Enter your Address Details</string>
+    <string name="emirates">Emirates/City</string>
+    <string name="area">Area</string>
+    <string name="emirate">Emirate</string>
+    <string name="address_boy">Any special instructions? (optional)</string>
+    <string name="order_name">Give a Custom name to your order. (optional)</string>
+    <string name="recurr">Recur this Order (optional)</string>
+    <string name="order_name_ex">Party Order, Monthly Order etc.</string>
+    <string name="note_hint">Starting typing here.....</string>
+    <string name="additional">Additional Information</string>
+    <string name="address_override">You already have a Pending Address. Do you want to replace it?</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="landmarks">Landmark</string>
+    <string name="order_id">Order ID : #45894</string>
+    <string name="order_confirm">ORDER CONFIRMED!</string>
+    <string name="delivery_confirm_now">Mohammed Shami is Delivering your order right now</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="reason_cancel">Please tell us the reason for cancellation .</string>
+    <string name="po_box">P.O. Box 2530,</string>
+    <string name="yalayas_dubai">Yalayas, D63, Dubai,</string>
+    <string name="uae">U.A.E.</string>
+    <string name="arrived_in">ARRIVED IN</string>
+    <string name="reason_order_cancellation">Reason for cancellation</string>
+    <string name="language">Language</string>
+    <string name="push_notification">Push Notifications</string>
+    <string name="prefered_time">Preferred Time</string>
+    <string name="total_payable_amount">Total Payable Amount</string>
+    <string name="pay_by_cash">Pay by Cash</string>
+    <string name="my_card">MY CARDS</string>
+    <string name="select_city">Select City</string>
+    <string name="offers">Offers</string>
+    <string name="invite_friends">Invite</string>
+    <string name="order_number">Order Number</string>
+    <string name="bill_detail">Bill Detail</string>
+    <string name="sub_total">Subtotal</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="arabic1">العربية</string>
+    <string name="bill_amount">Bill Amount</string>
+    <string name="delivery_charges">Delivery Charges</string>
+    <string name="paid_via_mai_dubai_wallet">Paid via:Mai Dubai Wallet</string>
+    <string name="use_a_saved_card">Use a saved card</string>
+    <string name="add_card">Add card</string>
+    <string name="login">Login</string>
+    <string name="or_login_with">Or Login with</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="quantity_relate">0.01 of 1.4l</string>
+    <string name="customer_id">customer ID:</string>
+    <string name="last_order_detail">LAST ORDER DETAILS</string>
+    <string name="repeat_order">Repeat Order</string>
+    <string name="search_area">Search Area</string>
+    <string name="search_emairates">Search Emirates</string>
+    <string name="search_sub_area">Search SubArea</string>
+    <string name="new_order">New Order</string>
+    <string name="po_emirates_add">P.O.BOX 2530,Yalayas,D63,Dubai,United Arab Emirates</string>
+    <string name="order">Order</string>
+    <string name="previous">Previous</string>
+    <string name="status">Status</string>
+    <string name="aed_1_4">AED 1.4</string>
+    <string name="day_month">Tuesday,June 5</string>
+    <string name="po_box_uae">P.O.Box:2530,yalayas,D63,Dubai,U.A.E</string>
+    <string name="mai_dubai_contact">800MAIDUBAI(800-62438224)</string>
+    <string name="plz_enter">Email should not be empty</string>
+    <string name="save_settings">Saving... Please wait....</string>
+    <string name="or">OR</string>
+    <string name="feedback_success">Your feedback has been \nsent suceessfully</string>
+
+    <string name="no_offer_available_now">Exciting new offers are coming your way! \n No offers are available for now.</string>
+    <string name="orderdelivered">Order Delivered.</string>
+    <string name="plz_wait">Please wait...</string>
+    <string name="videos">Videos</string>
+    <string name="sub_ares">Sub Area</string>
+    <string name="select">Select</string>
+    <string name="custom">Custom</string>
+    <string name="select_language">Select Language</string>
+    <string name="aboutus"> <p align="justify">Mai Dubai LLC is a semi government  Bottled Drinking Water company operational since March 2014.</p></string>
+    <string name="aboutus1"> <p align="justify">
+        Based in Dubai, in the Yalayas Area on the Al Qudra street, Mai Dubai operates a state of the art Factory which runs and
+        strict guidelines and follows local, regional and international procedures in production, bottling and safety.
+        The factory is <b>HACCP, ISO and ESMA certified</b> holding the Emirates Quality Mark logo, and is also FDA approved.
+        Mai Dubai since then has become a House Hold name in the United Arab Emirates, selling it\’s now iconic looking bottles,
+        with distinguishing red colour in its logo, label and cap and. Mai Dubai\’s portfolio of products includes <b>5 Gallon bottles,
+        small and mediums size bottles and cups.</b> </p></string>
+    <string name="aboutUs2">
+                             In May 2016 <b>His Highness Sheikh Mohamed Bin Rashid Al Maktoum, Vice President,</b> Prime Minister of the UAE, and
+        Ruler of Dubai along side <b>His Highness Sheikh Hamdan</b> the Crown prince of Dubai went on a tour of the Factory and were guided by
+        Mai Dubai CEO <b>Jay Andres</b> and Mai Dubai Chairman of the Board His Excellency <b>Saeed Al Tayer.</b> Attendees included Mai Dubai
+        management, Mai Dubai Board members as well as member of the Media. Mai Dubai is the only bottled drinking water company
+        nominated in 2015 by the Dubai Municipality for Best Factory Award, and the only bottled drinking water company to have been
+        awarded the highest Grade in Food Safety <b>\“Grade A\”</b> also by the Dubai Municipality. Today Mai Dubai exports it’s products to the
+        <b>GCC, Europe, Africa and Asia,</b> and will continue to exceed its customers expectations and provide only the most premium products
+        and services.
+    </string>
+    <string name="Order">ORDER</string>
+    <string name="no_data">No Data Found</string>
+    <string name="address_details">Address Details</string>
+    <string name="order_detaills">Order Details</string>
+    <string name="Continue_Shopping">Continue Shopping</string>
+
+    <string name="order_placing_text">Please wait your order is being placed....</string>
+    <string name="aboutus_maidubai">About Mai Dubai</string>
+
+    <string name="profile">My Profile</string>
+    <string name="myorders">My Orders</string>
+    <string name="myrecurringorders">My Recurring Orders</string>
+    <string name="socialnetwork">Social Network</string>
+    <string name="aboutusttl">About Us</string>
+    <string name="contactusttl">Contact Us</string>
+    <string name="en">En</string>
+    <string name="ar">Ar</string>
+    <string name="total_colon">Total:</string>
+    <string name="paidvia">Payment via : CASH ON DELIVERY</string>
+    <string name="paidvia_online">Payment via : ONLINE</string>
+
+    <!--<string name="facebook_app_id">741458845995497</string>-->
+
+    <string name="pref_saved">We have updated your preference successfully.</string>
+    <string name="success">SUCCESS</string>
+    <string name="total_basket">Total: </string>
+    <string name="address_hint">Landmark [e.g : Behind xxx School]</string>
+    <string name="exit_confirm">Are you sure want to exit the application?</string>
+    <string name="app_lauch_msg">Dear Customer, This is to remind you that our sales team deliver water in your area every: </string>
+    <string name="dnt_show_again">Don\'t show me again</string>
+    <string name="one_hour">1 hour</string>
+    <string name="two_hours">2 hours</string>
+    <string name="three_hours">4 hours</string>
+    <string name="menu_footer">Our Sales team delivers water \nin your area every:</string>
+    <string name="special_instr">Special Instructions : </string>
+    <string name="disclaimer">DISCLAIMER</string>
+    <string name="disclaimer_msg">
+        Hydration Calculator was made as an indicator of the levels of water you should be consuming based on basic information.
+        Your specific needs may vary depending on other denominators not common to everyone else. \n\n
+        If you are undertaking specific training programs or other medical related testing or activity, we suggest you verify your
+        hydration needs with a professional or expert that is familiar with your specific activities.
+        Consult your doctor before starting a new diet or exercise routine.
+    </string>
+    <string name="accept">Accept</string>
+    <string name="Address_TAG">address_tag</string>
+    <string name="more_sugest">Well done! you have drank more than the quantity suggested. Please reset.</string>
+    <string name="Once_in_a_Week">Once in a Week</string>
+    <string name="Once_in_two_Weeks">Once in two Weeks</string>
+    <string name="Once_in_3_Weeks">Once in 3 Weeks</string>
+    <string name="Once_in_a_Month">Once in a Month</string>
+    <string name="cancel_Recurr">Cancel Recurring</string>
+    <string name="more_qty">Cannot order more than %s quantity. Please change the quantity.</string>
+    <string name="Go_to_recur_orders">Go to Recurring Orders</string>
+    <string name="contactcustomer">To change your mobile or email please call us.</string>
+    <string name="repeat_order_cap">REPEAT ORDER</string>
+    <string name="min_order_qty">Min. Order Qty</string>
+    <string name="order_date">Order Date</string>
+    <string name="processing_patient">Processing, please be patient…</string>
+    <string name="add_first_glass">Hi, add your first glass of water</string>
+    <string name="add_drink_meter" formatted="false">You have drank %s ml of %s ml</string>
+
+    <string name="Quantity">Quantity </string>
+    <string name="UnitPrice">Unit Price </string>
+    <string name="TotalPrice">Total Price </string>
+
+    <string name="onehundredml">100 ml</string>
+    <string name="twohundredml">200 ml</string>
+    <string name="threethirtydml">330 ml</string>
+    <string name="fivehundredml">500 ml</string>
+    <string name="thousandml">1000 ml</string>
+    <string name="ml">ml</string>
+
+
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+
+
+    <string name="currency">AED </string>
+    <string name="selectreasonforcancellation">Select Reason for Cancellation</string>
+    <string name="maxrecurringorders">You have already placed a maximum number of recurring orders</string>
+    <string name="minquantity">Minimum Quantity</string>
+    <string name="na">N/A</string>
+    <string name="passwordsentsuccessfully">Password sent successfully</string>
+    <string name="addedtocart">Added To Cart.</string>
+    <string name="gotosettings">Go to settings</string>
+    <string name="recurringnarration">A recurring order is one that you’d like to have on a repeated time interval set by you. It will keep recurring until you cancel it.</string>
+
+    <string name="payment_type">Choose One Payment Mode.</string>  <!--vinod-->
+    <string name="rbIsCode"> COD </string>  <!--vinod-->
+    <string name="rbRossom"> Rossom</string>  <!--vinod-->
+    <string name="payment"> Payment</string>
+    <string name="total_vat">Total VAT Amount</string>  <!--vinod-->
+    <string name="enter_deliverty_date">Your Delivery Date</string>
+
+    <string name="facebook_app_id">2007397919511516</string>
+    <string name="fb_login_protocol_scheme">fb2007397919511516</string>
+    <string name="select_delivery_date">"Please select a Delivery date to continue"</string>
+
+
+</resources>
